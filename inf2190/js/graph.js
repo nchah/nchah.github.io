@@ -1,12 +1,18 @@
-var competingAssistants = [
-  {source: "", target: "Assistants", img: "images/compete-assistants.png"},
-  {source: "Siri", target: "Assistants", type: "competitor"},
-  {source: "Assistant", target: "Assistants", type: "competitor"},
-  {source: "Cortana", target: "Assistants", type: "competitor"},
-  {source: "Alexa", target: "Assistants", type: "competitor"},
-  {source: "M", target: "Assistants", type: "competitor"},
-  ];
+var tues = [
+  {source: "", target: "L1-G1",},
+  {source: "L1-G1", target: "quacken1", type: "main"},
+  {source: "L1-G1", target: "shortel2", type: "main"},
+  {source: "L1-G1", target: "sutian", type: "main"},
+  {source: "L1-G1", target: "kiddchar", type: "main"},
 
+
+];
+
+
+var thurs = [
+  {source: "", target: "L1-G1",},
+  {source: "L1-G1", target: "", type: "main"},
+];
 
 
 function a1() {
@@ -132,4 +138,4 @@ function draw(checks) {
 };
 
 // At first display all clusters
-draw(['alphabet', 'amazon', 'apple', 'facebook', 'ibm', 'microsoft', 'yahoo', 'showLogos']);
+draw(['thurs']);
