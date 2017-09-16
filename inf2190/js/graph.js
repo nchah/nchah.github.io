@@ -1,17 +1,26 @@
 var tues = [
   {source: "", target: "L1-G1",},
+  {source: "L1-G1", target: "", type: "main"},
+
+  {source: "", target: "L1-G2",},
+  {source: "L1-G2", target: "", type: "main"},
+
+  {source: "", target: "L1-G3",},
+  {source: "L1-G3", target: "", type: "main"},
+  
+  {source: "", target: "L1-G4",},
+  {source: "L1-G4", target: "", type: "main"},
+
+];
+
+var thurs = [
+  {source: "", target: "L1-G1",},
   {source: "L1-G1", target: "quacken1", type: "main"},
   {source: "L1-G1", target: "shortel2", type: "main"},
   {source: "L1-G1", target: "sutian", type: "main"},
   {source: "L1-G1", target: "kiddchar", type: "main"},
 
 
-];
-
-
-var thurs = [
-  {source: "", target: "L1-G1",},
-  {source: "L1-G1", target: "", type: "main"},
 ];
 
 
