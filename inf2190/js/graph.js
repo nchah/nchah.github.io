@@ -1,3 +1,4 @@
+// Icon credit: http://www.freeiconspng.com/img/11444
 var tues = [
   {source: "", target: "L1-G1",},
   {source: "L1-G1", target: "", type: "main"},
@@ -14,7 +15,7 @@ var tues = [
 ];
 
 var thurs = [
-  {source: "", target: "L2-G1",},
+  {source: "", target: "L2-G1", img:"images/analytics.png"},
   {source: "L2-G1", target: "quacken1", type: "main"},
   {source: "L2-G1", target: "shortel2", type: "main"},
   {source: "L2-G1", target: "sutian", type: "main"},
