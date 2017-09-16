@@ -14,11 +14,11 @@ var tues = [
 ];
 
 var thurs = [
-  {source: "", target: "L1-G1",},
-  {source: "L1-G1", target: "quacken1", type: "main"},
-  {source: "L1-G1", target: "shortel2", type: "main"},
-  {source: "L1-G1", target: "sutian", type: "main"},
-  {source: "L1-G1", target: "kiddchar", type: "main"},
+  {source: "", target: "L2-G1",},
+  {source: "L2-G1", target: "quacken1", type: "main"},
+  {source: "L2-G1", target: "shortel2", type: "main"},
+  {source: "L2-G1", target: "sutian", type: "main"},
+  {source: "L2-G1", target: "kiddchar", type: "main"},
 
 
 ];
