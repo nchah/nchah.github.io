@@ -1,0 +1,135 @@
+var competingAssistants = [
+  {source: "", target: "Assistants", img: "images/compete-assistants.png"},
+  {source: "Siri", target: "Assistants", type: "competitor"},
+  {source: "Assistant", target: "Assistants", type: "competitor"},
+  {source: "Cortana", target: "Assistants", type: "competitor"},
+  {source: "Alexa", target: "Assistants", type: "competitor"},
+  {source: "M", target: "Assistants", type: "competitor"},
+  ];
+
+
+
+function a1() {
+  // Remove the existing svg elements
+  d3.selectAll("g > *").remove();
+
+  // Return the checked checkboxes
+  var checkedValues = [];
+  var checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked');
+  for (var i=0; checkedBoxes[i]; ++i) {
+      if (checkedBoxes[i].checked) {
+           checkedValues.push(checkedBoxes[i].value);
+      }
+  }
+  if (checkedValues) {
+    draw(checkedValues);
+  }
+};
+
+
+function draw(checks) {
+  var checkedValues = checks;
+  var links = [];
+  // Tried .concat(); and Array.prototype.push.apply(); 
+  // but deep copies of the arrays needed after a d3js .remove() call
+  if (checkedValues.includes('tues')) {
+    var links = links.concat(JSON.parse(JSON.stringify(tues)));
+  }
+  if (checkedValues.includes('thurs')) {
+    var links = links.concat(JSON.parse(JSON.stringify(thurs)));
+  }
+  var nodes = {};
+  // Compute the distinct nodes from the links.
+  links.forEach(function(link) {
+    link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+    link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, img: link.img});
+  });
+  // workaround to let subclusters be unlinked
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].source.name == "") {
+      links.splice(i, 1);
+    }
+  }
+  // Define graph parameters
+  var width = 1000,
+      height = 600;
+  var force = d3.layout.force()
+      .nodes(d3.values(nodes))
+      .links(links)
+      .size([width, height])
+      .linkDistance(70)
+      .charge(-250)
+      .on("tick", tick)
+      .start();
+  var svg = d3.select("#visualization")
+      .attr("width", width)
+      .attr("height", height);
+  // // Add a border around the visualization box
+  // var borderPath = svg.append("rect")
+  //         .attr("x", 0)
+  //         .attr("y", 0)
+  //         .attr("height", height)
+  //         .attr("width", width)
+  //         .style("stroke", "blue")
+  //         .style("fill", "none")
+  //         .style("stroke-width", 1);
+  // Per-type markers, as they don't inherit styles.
+  svg.append("defs").selectAll("marker")
+      .data(["transition", "acquisition"])
+    .enter().append("marker")  // the arrowhead
+      .attr("id", function(d) { return d; })
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 15)
+      .attr("refY", -1.5)
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .attr("orient", "auto")
+    .append("path")
+      .attr("d", "M0,-5L10,0L0,5");
+  var path = svg.append("g").selectAll("path")
+      .data(force.links())
+    .enter().append("path")
+      .attr("class", function(d) { return "link " + d.type; })
+      .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
+  var circle = svg.append("g").selectAll("circle")
+      .data(force.nodes())
+    if (checkedValues.includes("showLogos")) {
+      circle.enter().append("image")
+      .attr("xlink:href", function(d) { return d.img; })
+    } else {
+      circle.enter().append("circle")
+      .attr("r", 6)
+    }
+    circle.attr("x", -16)
+      .attr("y", -16)
+      .attr("width", 32)
+      .attr("height", 32)
+      .call(force.drag);
+  var text = svg.append("g").selectAll("text")
+      .data(force.nodes())
+    .enter().append("text")
+      .attr("x", -20)
+      .attr("y", -16) //".31em")
+      .text(function(d) { return d.name; });
+
+  // Use elliptical arc path segments to doubly-encode directionality.
+  function tick() {
+    path.attr("d", linkArc);
+    circle.attr("transform", transform);
+    text.attr("transform", transform);  // The text labels for each node
+  };
+  function linkArc(d) {
+    var dx = d.target.x - d.source.x,
+        dy = d.target.y - d.source.y,
+        // The original code for the elliptical arcs - maybe re-use one day
+        // dr = Math.sqrt(dx * dx + dy * dy);
+        dr = 0;
+    return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+  };
+  function transform(d) {
+    return "translate(" + d.x + "," + d.y + ")";
+  };
+};
+
+// At first display all clusters
+draw(['alphabet', 'amazon', 'apple', 'facebook', 'ibm', 'microsoft', 'yahoo', 'showLogos']);
