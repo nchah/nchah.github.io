@@ -147,4 +147,4 @@ function draw(checks) {
 };
 
 // At first display all clusters
-draw(['thurs']);
+draw(['tues', 'thurs']);
