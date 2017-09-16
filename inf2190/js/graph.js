@@ -109,7 +109,7 @@ function draw(checks) {
       .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
   var circle = svg.append("g").selectAll("circle")
       .data(force.nodes())
-    if (checkedValues.includes("showLogos") && d.img) {
+    if (checkedValues.includes("showLogos") && function(d) { d.img }) {
       circle.enter().append("image")
       .attr("xlink:href", function(d) { return d.img; })
     } else {
