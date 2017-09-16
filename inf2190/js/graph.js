@@ -109,16 +109,16 @@ function draw(checks) {
       .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
   var circle = svg.append("g").selectAll("circle")
       .data(force.nodes())
-    // if (checkedValues.includes("showLogos") && function(d) { d.img }) {
-      // circle.enter().append("image")
-      // .attr("xlink:href", function(d) { return d.img; })
-    // } else {
-      // circle.enter().append("circle")
-      // .attr("r", 6)
-    // }
-      .enter().append("image")
+    if (function(d) { return d.img }) {
+      circle.enter().append("image")
       .attr("xlink:href", function(d) { return d.img; })
-      .attr("x", -16)
+    } else {
+      circle.enter().append("circle")
+      .attr("r", 6)
+    }
+      // .enter().append("image")
+      // .attr("xlink:href", function(d) { return d.img; })
+      circle.attr("x", -16)
       .attr("y", -16)
       .attr("width", 32)
       .attr("height", 32)
@@ -150,4 +150,4 @@ function draw(checks) {
 };
 
 // At first display all clusters
-draw(['tues', 'thurs', 'showLogos']);
+draw(['tues', 'thurs']);
