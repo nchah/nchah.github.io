@@ -122,7 +122,7 @@ function draw(checks) {
         if (d.img) {
           return d.img;
         } else { 
-          // return "images/compete.png"
+          return "images/circle.png"
         }})
       .attr("x", -16)
       .attr("y", -16)
