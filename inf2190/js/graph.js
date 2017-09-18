@@ -21,6 +21,14 @@ var thurs = [
   {source: "L2-G1", target: "sutian", type: "main"},
   {source: "L2-G1", target: "kiddchar", type: "main"},
 
+  {source: "", target: "L2-G2 & G3 (MHI) & G3 (MHI)", img:"images/analytics.png"},
+  {source: "L2-G2 & G3 (MHI)", target: "agniho22", type: "main"},
+  {source: "L2-G2 & G3 (MHI)", target: "hoquemar", type: "main"},
+  {source: "L2-G2 & G3 (MHI)", target: "karimars", type: "main"},
+  {source: "L2-G2 & G3 (MHI)", target: "sekhong2", type: "main"},
+  {source: "L2-G2 & G3 (MHI)", target: "harris90", type: "main"},
+  {source: "L2-G2 & G3 (MHI)", target: "wongstev", type: "main"},
+
 
 ];
 
