@@ -38,7 +38,7 @@ var thurs = [
   {source: "L2-G2", target: " ", type: "main"},
   {source: "L2-G2", target: " ", type: "main"},
 
-  {source: "", target: "L2-G3 & G4 (MHI)", img:"images/analytics.png"},
+  {source: "", target: "L2-G3 & <br> G4 (MHI)", img:"images/analytics.png"},
   {source: "L2-G3 & G4 (MHI)", target: "agniho22", type: "main"},
   {source: "L2-G3 & G4 (MHI)", target: "hoquemar", type: "main"},
   {source: "L2-G3 & G4 (MHI)", target: "karimars", type: "main"},
