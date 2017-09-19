@@ -1,28 +1,50 @@
-// Icon credit: http://www.freeiconspng.com/img/11444
 var tues = [
-  {source: "", target: "L1-G1",},
-  {source: "L1-G1", target: "", type: "main"},
+  {source: "", target: "L1-G1", img:"images/analytics.png"},
+  {source: "L1-G1", target: "Namir Ahmed", type: "main"},
+  {source: "L1-G1", target: "Ali Montazeri", type: "main"},
+  {source: "L1-G1", target: "Nasom Ikoko", type: "main"},
 
-  {source: "", target: "L1-G2",},
-  {source: "L1-G2", target: "", type: "main"},
+  {source: "", target: "L1-G2", img:"images/analytics.png"},
+  {source: "L1-G2", target: "Omodolapo Balogun", type: "main"},
+  {source: "L1-G2", target: "Patrick Smyth", type: "main"},
+  {source: "L1-G2", target: "Ka Weng Chi", type: "main"},
+  {source: "L1-G2", target: "Hussein Rajabali", type: "main"},
 
-  {source: "", target: "L1-G3",},
-  {source: "L1-G3", target: "", type: "main"},
+  {source: "", target: "L1-G3", img:"images/analytics.png"},
+  {source: "L1-G3", target: "Rifat Syed", type: "main"},
+  {source: "L1-G3", target: "Glyneva Bradley-Ridout", type: "main"},
+  {source: "L1-G3", target: "Ricky Liu", type: "main"},
+  {source: "L1-G3", target: "Kairui Wu", type: "main"},
   
-  {source: "", target: "L1-G4",},
-  {source: "L1-G4", target: "", type: "main"},
+  {source: "", target: "L1-G4", img:"images/analytics.png"},
+  {source: "L1-G4", target: "Michelle Johnstone", type: "main"},
+  {source: "L1-G4", target: "Marian Uwadiegwu", type: "main"},
+  {source: "L1-G4", target: "Achyuth Suri", type: "main"},
+  {source: "L1-G4", target: "Marian Tesfamichael", type: "main"},
 
-  {source: "", target: "L1-G5",},
-  {source: "L1-G5", target: "", type: "main"},
+  {source: "", target: "L1-G5", img:"images/analytics.png"},
+  {source: "L1-G5", target: "Lulu Yang", type: "main"},
+  {source: "L1-G5", target: "Ye Zheng", type: "main"},
+  {source: "L1-G5", target: "Yiyang Wang", type: "main"},
+  {source: "L1-G5", target: "Shafaq Zakir", type: "main"},
 
-  {source: "", target: "L1-G6",},
-  {source: "L1-G6", target: "", type: "main"},
+  {source: "", target: "L1-G6", img:"images/analytics.png"},
+  {source: "L1-G6", target: "Colleen McDonald", type: "main"},
+  {source: "L1-G6", target: "Ziang Chen", type: "main"},
+  {source: "L1-G6", target: "Pallav Punhani", type: "main"},
+  {source: "L1-G6", target: "Ning Wu", type: "main"},
 
-  {source: "", target: "L1-G7",},
-  {source: "L1-G7", target: "", type: "main"},
+  {source: "", target: "L1-G7", img:"images/analytics.png"},
+  {source: "L1-G7", target: "Ye-Eun Kim", type: "main"},
+  {source: "L1-G7", target: "Permjit Buadhwal", type: "main"},
+  {source: "L1-G7", target: "Zhuoran Jiang", type: "main"},
+  {source: "L1-G7", target: "Harrison Sless", type: "main"},
 
-  {source: "", target: "L1-G8",},
-  {source: "L1-G8", target: "", type: "main"},
+  {source: "", target: "L1-G8", img:"images/analytics.png"},
+  {source: "L1-G8", target: "Sara Alnasser", type: "main"},
+  {source: "L1-G8", target: "Lin Zhang", type: "main"},
+  {source: "L1-G8", target: "Zhixian Chen", type: "main"},
+  {source: "L1-G8", target: "Xuning Zhu", type: "main"},
 ];
 
 var thurs = [

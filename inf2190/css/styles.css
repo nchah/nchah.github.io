@@ -51,3 +51,16 @@ text {
 div {
   font-family: 'Roboto Mono', monospace;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table.centered {
+    margin-left:auto; 
+    margin-right:auto;
+  }
