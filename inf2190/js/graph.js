@@ -12,6 +12,17 @@ var tues = [
   {source: "", target: "L1-G4",},
   {source: "L1-G4", target: "", type: "main"},
 
+  {source: "", target: "L1-G5",},
+  {source: "L1-G5", target: "", type: "main"},
+
+  {source: "", target: "L1-G6",},
+  {source: "L1-G6", target: "", type: "main"},
+
+  {source: "", target: "L1-G7",},
+  {source: "L1-G7", target: "", type: "main"},
+
+  {source: "", target: "L1-G8",},
+  {source: "L1-G8", target: "", type: "main"},
 ];
 
 var thurs = [
@@ -21,13 +32,19 @@ var thurs = [
   {source: "L2-G1", target: "sutian", type: "main"},
   {source: "L2-G1", target: "kiddchar", type: "main"},
 
-  {source: "", target: "L2-G2 & G3 (MHI)", img:"images/analytics.png"},
-  {source: "L2-G2 & G3 (MHI)", target: "agniho22", type: "main"},
-  {source: "L2-G2 & G3 (MHI)", target: "hoquemar", type: "main"},
-  {source: "L2-G2 & G3 (MHI)", target: "karimars", type: "main"},
-  {source: "L2-G2 & G3 (MHI)", target: "sekhong2", type: "main"},
-  {source: "L2-G2 & G3 (MHI)", target: "harris90", type: "main"},
-  {source: "L2-G2 & G3 (MHI)", target: "wongstev", type: "main"},
+  {source: "", target: "L2-G2", img:"images/analytics.png"},
+  {source: "L2-G2", target: "bittenc2", type: "main"},
+  {source: "L2-G2", target: "rafihhib", type: "main"},
+  {source: "L2-G2", target: " ", type: "main"},
+  {source: "L2-G2", target: " ", type: "main"},
+
+  {source: "", target: "L2-G3 & G4 (MHI)", img:"images/analytics.png"},
+  {source: "L2-G3 & G4 (MHI)", target: "agniho22", type: "main"},
+  {source: "L2-G3 & G4 (MHI)", target: "hoquemar", type: "main"},
+  {source: "L2-G3 & G4 (MHI)", target: "karimars", type: "main"},
+  {source: "L2-G3 & G4 (MHI)", target: "sekhong2", type: "main"},
+  {source: "L2-G3 & G4 (MHI)", target: "harris90", type: "main"},
+  {source: "L2-G3 & G4 (MHI)", target: "wongstev", type: "main"},
 
 
 ];
