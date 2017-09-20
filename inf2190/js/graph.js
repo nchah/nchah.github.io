@@ -12,7 +12,7 @@ var tues = [
 
   {source: "", target: "L1-G3", img:"images/analytics.png"},
   {source: "L1-G3", target: "Rifat Syed", type: "main"},
-  {source: "L1-G3", target: "Glyneva Bradley-Ridout", type: "main"},
+  {source: "L1-G3", target: "Kendall Kiddie", type: "main"},
   {source: "L1-G3", target: "Ricky Liu", type: "main"},
   {source: "L1-G3", target: "Kairui Wu", type: "main"},
   
