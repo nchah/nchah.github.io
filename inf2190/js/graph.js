@@ -59,14 +59,16 @@ var thurs = [
   {source: "L2-G2", target: " ", type: "main"},
   {source: "L2-G2", target: " ", type: "main"},
 
-  {source: "", target: "L2-G3 & G4 (MHI)", img:"images/analytics.png"},
-  {source: "L2-G3 & G4 (MHI)", target: "agniho22", type: "main"},
-  {source: "L2-G3 & G4 (MHI)", target: "hoquemar", type: "main"},
-  {source: "L2-G3 & G4 (MHI)", target: "karimars", type: "main"},
-  {source: "L2-G3 & G4 (MHI)", target: "sekhong2", type: "main"},
-  {source: "L2-G3 & G4 (MHI)", target: "harris90", type: "main"},
-  {source: "L2-G3 & G4 (MHI)", target: "wongstev", type: "main"},
+  {source: "", target: "L2-G3 (eMHI)", img:"images/analytics.png"},
+  {source: "L2-G3 (eMHI)", target: "Marufa Hoque", type: "main"},
+  {source: "L2-G3 (eMHI)", target: "Nathan Harrison", type: "main"},
+  {source: "L2-G3 (eMHI)", target: "Tanya Agnihotri", type: "main"},
+  {source: "L2-G3 (eMHI)", target: "Steven Wong", type: "main"},
 
+  {source: "", target: "L2-G4 (eMHI)", img:"images/analytics.png"},
+  {source: "L2-G4 (eMHI)", target: "Ashoke Roy", type: "main"},
+  {source: "L2-G4 (eMHI)", target: "Arsalan Karim", type: "main"},
+  {source: "L2-G4 (eMHI)", target: "Gursimran Sekhon", type: "main"},
 
 ];
 
