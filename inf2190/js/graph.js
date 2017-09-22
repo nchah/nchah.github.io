@@ -4,7 +4,7 @@ var tues = [
   {source: "L1-G1", target: "Ali Montazeri", type: "main"},
   {source: "L1-G1", target: "Nasom Ikoko", type: "main"},
 
-  {source: "", target: "L1-G2", img:"images/analytics.png"},1
+  {source: "", target: "L1-G2", img:"images/analytics.png"},
   {source: "L1-G2", target: "Patrick Smyth", type: "main"},
   {source: "L1-G2", target: "Ka Weng Chi", type: "main"},
   {source: "L1-G2", target: "Hussein Rajabali", type: "main"},
