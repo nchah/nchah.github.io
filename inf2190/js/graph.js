@@ -4,8 +4,7 @@ var tues = [
   {source: "L1-G1", target: "Ali Montazeri", type: "main"},
   {source: "L1-G1", target: "Nasom Ikoko", type: "main"},
 
-  {source: "", target: "L1-G2", img:"images/analytics.png"},
-  {source: "L1-G2", target: "Omodolapo Balogun", type: "main"},
+  {source: "", target: "L1-G2", img:"images/analytics.png"},1
   {source: "L1-G2", target: "Patrick Smyth", type: "main"},
   {source: "L1-G2", target: "Ka Weng Chi", type: "main"},
   {source: "L1-G2", target: "Hussein Rajabali", type: "main"},
@@ -48,16 +47,16 @@ var tues = [
 
 var thurs = [
   {source: "", target: "L2-G1", img:"images/analytics.png"},
-  {source: "L2-G1", target: "quacken1", type: "main"},
-  {source: "L2-G1", target: "shortel2", type: "main"},
-  {source: "L2-G1", target: "sutian", type: "main"},
-  {source: "L2-G1", target: "kiddchar", type: "main"},
+  {source: "L2-G1", target: "Amy Quackenbush", type: "main"},
+  {source: "L2-G1", target: "Amber Shortell", type: "main"},
+  {source: "L2-G1", target: "Tendy Su", type: "main"},
+  {source: "L2-G1", target: "Charlotte Kidd", type: "main"},
 
   {source: "", target: "L2-G2", img:"images/analytics.png"},
-  {source: "L2-G2", target: "bittenc2", type: "main"},
-  {source: "L2-G2", target: "rafihhib", type: "main"},
-  {source: "L2-G2", target: " ", type: "main"},
-  {source: "L2-G2", target: " ", type: "main"},
+  {source: "L2-G2", target: "Thais Bittencourt", type: "main"},
+  {source: "L2-G2", target: "Hiba Rafih", type: "main"},
+  {source: "L2-G2", target: "Harsimran Grewal", type: "main"},
+  {source: "L2-G2", target: "Riley McGillis", type: "main"},
 
   {source: "", target: "L2-G3 (eMHI)", img:"images/analytics.png"},
   {source: "L2-G3 (eMHI)", target: "Marufa Hoque", type: "main"},
