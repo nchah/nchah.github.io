@@ -69,6 +69,44 @@ var thurs = [
   {source: "L2-G4 (eMHI)", target: "Arsalan Karim", type: "main"},
   {source: "L2-G4 (eMHI)", target: "Gursimran Sekhon", type: "main"},
 
+  {source: "", target: "L2-G5", img:"images/analytics.png"},
+  {source: "L2-G5", target: "Julia Martyniuk", type: "main"},
+  {source: "L2-G5", target: "Nicole Stradiotto", type: "main"},
+  {source: "L2-G5", target: "Anastasios Exacoustos", type: "main"},
+  {source: "L2-G5", target: "Kaur Gaganpreet", type: "main"},
+
+  {source: "", target: "L2-G6", img:"images/analytics.png"},
+  {source: "L2-G6", target: "Aniket Kumar", type: "main"},
+  {source: "L2-G6", target: "Rajin Sidhu", type: "main"},
+  {source: "L2-G6", target: "Giselle Dsouza", type: "main"},
+  {source: "L2-G6", target: "Sanoop Sahadevan", type: "main"},
+
+  {source: "", target: "L2-G7", img:"images/analytics.png"},
+  {source: "L2-G7", target: "Rae Price", type: "main"},
+  {source: "L2-G7", target: "Alina Velieva", type: "main"},
+  {source: "L2-G7", target: "Abeera Ali", type: "main"},
+  {source: "L2-G7", target: "Abida Khattak", type: "main"},
+
+  {source: "", target: "L2-G8", img:"images/analytics.png"},
+  {source: "L2-G8", target: "Akshay Mittal", type: "main"},
+  {source: "L2-G8", target: "Pallav Punhani", type: "main"},
+  {source: "L2-G8", target: "Paras Rawal", type: "main"},
+
+  {source: "", target: "L2-G9", img:"images/analytics.png"},
+  {source: "L2-G9", target: "Naghmeh Khalili Shahanaghi", type: "main"},
+  {source: "L2-G9", target: "Karen Klassen", type: "main"},
+  {source: "L2-G9", target: "Rajin Patel", type: "main"},
+
+  {source: "", target: "L2-G10", img:"images/analytics.png"},
+  {source: "L2-G10", target: "Amin Syed", type: "main"},
+  {source: "L2-G10", target: "Kavitha Mekala", type: "main"},
+  {source: "L2-G10", target: "Vivekanandan Gunasekaran", type: "main"},
+  {source: "L2-G10", target: "Lauren Ash", type: "main"},
+
+  {source: "", target: "L2-G11", img:"images/analytics.png"},
+  {source: "L2-G11", target: "Xiwen Miao", type: "main"},
+  {source: "L2-G11", target: "Lee Sang Lee", type: "main"},
+  {source: "L2-G11", target: "Fernanda Garnier", type: "main"},
 ];
 
 
