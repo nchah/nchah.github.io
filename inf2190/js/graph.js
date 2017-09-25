@@ -31,6 +31,7 @@ var tues = [
   {source: "L1-G6", target: "Colleen McDonald", type: "main"},
   {source: "L1-G6", target: "Ziang Chen", type: "main"},
   {source: "L1-G6", target: "Ning Wu", type: "main"},
+  {source: "L1-G6", target: "Haoyue Xia", type: "main"},
 
   {source: "", target: "L1-G7", img:"images/analytics.png"},
   {source: "L1-G7", target: "Ye-Eun Kim", type: "main"},
