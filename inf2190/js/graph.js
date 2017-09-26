@@ -22,7 +22,6 @@ var tues = [
   {source: "L1-G4", target: "Marian Tesfamichael", type: "main"},
 
   {source: "", target: "L1-G5", img:"images/analytics.png"},
-  {source: "L1-G5", target: "Lulu Yang", type: "main"},
   {source: "L1-G5", target: "Ye Zheng", type: "main"},
   {source: "L1-G5", target: "Yiyang Wang", type: "main"},
   {source: "L1-G5", target: "Shafaq Zakir", type: "main"},
