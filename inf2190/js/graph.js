@@ -8,6 +8,7 @@ var tues = [
   {source: "L1-G2", target: "Patrick Smyth", type: "main"},
   {source: "L1-G2", target: "Ka Weng Chi", type: "main"},
   {source: "L1-G2", target: "Hussein Rajabali", type: "main"},
+  {source: "L1-G2", target: "Omodolapo Balogun", type: "main"},
 
   {source: "", target: "L1-G3", img:"images/analytics.png"},
   {source: "L1-G3", target: "Rifat Syed", type: "main"},
