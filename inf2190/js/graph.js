@@ -14,7 +14,6 @@ var tues = [
   {source: "L1-G3", target: "Rifat Syed", type: "main"},
   {source: "L1-G3", target: "Kendall Kiddie", type: "main"},
   {source: "L1-G3", target: "Ricky Liu", type: "main"},
-  {source: "L1-G3", target: "Kairui Wu", type: "main"},
   
   {source: "", target: "L1-G4", img:"images/analytics.png"},
   {source: "L1-G4", target: "Michelle Johnstone", type: "main"},
@@ -51,7 +50,7 @@ var thurs = [
   {source: "L2-G1", target: "Amy Quackenbush", type: "main"},
   {source: "L2-G1", target: "Amber Shortell", type: "main"},
   {source: "L2-G1", target: "Tendy Su", type: "main"},
-  {source: "L2-G1", target: "Charlotte Kidd", type: "main"},
+  {source: "L1-G3", target: "Kairui Wu", type: "main"},
 
   {source: "", target: "L2-G2", img:"images/analytics.png"},
   {source: "L2-G2", target: "Thais Bittencourt", type: "main"},
