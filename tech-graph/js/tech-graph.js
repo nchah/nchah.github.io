@@ -99,6 +99,7 @@ var alphabet = [
   {source: "Cloud", target: "App Engine", type: "main", img: "images/google-appengine.png"},
   {source: "Cloud", target: "Drive", type: "main", img: "images/google-drive.png"},
   {source: "Cloud", target: "G Suite", type: "main", img: "images/gsuite.png"},
+  {source: "Cloud", target: "Kaggle", type: "acquisition", img: "images/kaggle.png"},
   {source: "G Suite", target: "Docs", type: "main", img: "images/google-docs.png"},
   {source: "G Suite", target: "Sheets", type: "main", img: "images/google-sheets.png"},
   {source: "G Suite", target: "Slides", type: "main", img: "images/google-slides.png"},
@@ -350,15 +351,16 @@ function draw(checks) {
     link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, img: link.img});
   });
   
-  // delete empty node
-  delete nodes[""]
-
   // workaround to let subclusters be unlinked
   for (var i = 0; i < links.length; i++) {
     if (links[i].source.name == "") {
       links.splice(i, 1);
     }
   }
+
+  // delete empty node
+  delete nodes[""]
+
   // Define graph parameters
   var width = 1000,
       height = 600;
