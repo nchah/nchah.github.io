@@ -8,17 +8,18 @@
 //   {source: "/american_football", predicate: "</type.domain.types>", target: "/american_football/football_division"},
 // ];
 
+
 if(typeof(String.prototype.trim) === "undefined") {
   String.prototype.trim = function() {
     return String(this).replace(/^\s+|\s+$/g, '');
   };
 }
 
+
 function logIt() {
   input = document.getElementById('textBox').value.split('\n');
   console.log(input)
 }
-
 
 
 function draw2() {
