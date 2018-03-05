@@ -29,18 +29,20 @@
     <br>
     <div style="text-align:center;">
       <form>
-        <label>Label Size</label>
+        <span style="font-size: 14px;">Label Size</span>
         <input type="text" id="labelSize" name="labelSize" value="24">
-        <label>Node Size</label>
+        <span style="font-size: 14px;">Node Size</span>
         <input type="text" id="nodeSize" name="nodeSize" value="32">
         <!-- <button class="button" id="graphIt" onclick="draw2()">Apply Settings</button> -->
       </form>
     </div>
-
     <br>
+    <span style="color:grey; font-size:14px;">
+      Add arbitrary triples here (semicolon ';' separated). One triple per line.
+    </span>
     <textarea id="textBox" cols="100" rows="5"></textarea>
     <br><br>
-    <button class="button" id="graphIt" onclick="draw2()">Graph It!</button>
+    <button class="button" id="graphIt" onclick="draw2()">Graph It !</button>
     <br>
     <br>
 <script type="text/javascript" src="js/graph.js"></script>
