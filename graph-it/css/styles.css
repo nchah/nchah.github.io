@@ -49,7 +49,7 @@ circle {
 .link-label {
   fill: grey;
   font-family: 'Roboto Mono', monospace;
-  font-size: 8px;
+  /*font-size: 9px;  */
   font-weight: bold;
   pointer-events: none;
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
@@ -58,7 +58,7 @@ circle {
 text {
   fill: black;
   font-family: 'Roboto Mono', monospace;
-  font-size: 9px;
+  /*font-size: 9px;*/
   font-weight: bold;
   pointer-events: none;
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
@@ -102,4 +102,11 @@ textarea {
   border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
+}
+
+input[type=text] {
+  width: 10%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

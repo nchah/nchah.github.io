@@ -31,7 +31,7 @@ function draw2() {
     // Split each triple by:
     triple = input[i].split(';');
     triple_data = {source: triple[0].trim(), predicate: triple[1].trim(), target: triple[2].trim()}
-    console.log(triple_data);
+    // console.log(triple_data);
     links.push(JSON.parse(JSON.stringify(triple_data)));
   }
   // console.log(links);
@@ -96,10 +96,13 @@ function draw2() {
     .enter().append("path")
       .attr("class", function(d) { return "link " + d.predicate; })  
       .attr("marker-end", function(d) { return "url(#end)" }) //+ d.predicate; });
+  // Path labels
+  var labelSize = document.getElementById('labelSize').value;
   var pathLabels = svg.append("g").selectAll("pathLabels")
       .data(force.links())
     .enter().append("text")
       .attr("class", "link-label")
+      .style("font-size", labelSize)
       .text(function(d) { return d.predicate.replace("<", "")
                                             .replace(">", "")
                                             .replace(/\./g, "/"); })
@@ -107,7 +110,8 @@ function draw2() {
       .attr("y", function(d) { return (d.source.y + (d.target.y - d.source.y) * 0.5); })
       .attr("dy", ".25em")
       .attr("text-anchor", "middle");
-
+  // Nodes
+  var nodeSize = document.getElementById('nodeSize').value;
   var circle = svg.append("g").selectAll("circle")
       .data(force.nodes())
       .enter().append("image")
@@ -123,12 +127,15 @@ function draw2() {
         }})
       .attr("x", -12)  // about * -0.5 of width/height
       .attr("y", -12)
-      .attr("width", 24)
-      .attr("height", 24)
+      .attr("width", nodeSize)
+      .attr("height", nodeSize)
       .call(force.drag);
+  // Node labels
+  var labelSize = document.getElementById('labelSize').value;
   var text = svg.append("g").selectAll("text")
       .data(force.nodes())
     .enter().append("text")
+      .style("font-size", labelSize)
       .attr("x", -20)
       .attr("y", -16) //".31em")
       .text(function(d) { return d.name; })
