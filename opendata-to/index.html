@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <!-- Adapted from http://bl.ocks.org/mbostock/1153292 -->
+<head>
+  <meta charset="utf-8">
+  <title>Open Data Toronto Explorer</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css"> -->
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="js/graph.js"></script>
+  <!-- <script type="text/javascript" src="data/am_football.json"></script> -->
+  <!-- <script type="text/javascript" src="js/d3.js"></script> -->
+  
+<div style="text-align:center;">
+  <br>
+  <span style="font-size: 18px;">Open Data Toronto Explorer</span>
+  <br>
+  <span style="color:grey; font-style:italic; font-size:14px;">Search for data sets in Toronto Open Data!</span>
+  <br>
+  <br>
+  <svg id="visualization" style="text-align:center;" width="1200" height="500">
+     <rect width="1200" height="500" border=1 style="fill:none;stroke:black;stroke-width:1;"></rect>
+  </svg>
+  <br>
+  <br>
+  <div style="text-align:center;">
+    <form>
+      <span style="font-size: 14px;">Search</span>
+      <input style="width: 20%" type="text" id="nodeSize" name="nodeSize" value="TTC">
+      <button class="button" id="graphIt" onclick="draw2()">Visualize !</button>
+      <br><br>
+      <span style="font-size: 14px;">Label Size</span>
+      <input type="text" id="labelSize" name="labelSize" value="24">
+      <span style="font-size: 14px;">Node Size</span>
+      <input type="text" id="nodeSize" name="nodeSize" value="32">
+      <!-- <button class="button" id="graphIt" onclick="draw2()">Apply Settings</button> -->
+    </form>
+  </div>
+  <br><br>
+  <br>
+  <br>
+<script type="text/javascript" src="js/graph.js"></script>
+</div>
+</body>
+</html>
