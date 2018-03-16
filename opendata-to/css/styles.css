@@ -4,15 +4,15 @@
   stroke-width: 1.5px;
 }
 
-.link.main {
+.link.dataset {
   stroke: green;
   stroke-linecap: butt;
   stroke-opacity: 0.5;
 }
 
-.link.common-topic-description {
+.link.column {
   stroke: silver;
-  /*stroke-dasharray: 0,2 1;*/
+  stroke-dasharray: 0,2 1;
 }
 
 .link.type-object-id {
@@ -33,7 +33,6 @@
   stroke: skyblue;
 }
 
-
 .link.competitor {
   stroke: red;
   stroke-opacity: 0.5;
@@ -50,7 +49,7 @@ circle {
   fill: grey;
   font-family: 'Roboto Mono', monospace;
   /*font-size: 9px;  */
-  font-weight: bold;
+  /*font-weight: bold;*/
   pointer-events: none;
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
 }
@@ -58,28 +57,14 @@ circle {
 text {
   fill: black;
   font-family: 'Roboto Mono', monospace;
-  /*font-size: 9px;*/
-  font-weight: bold;
+  font-size: 11px;
+  /*font-weight: bold;*/
   pointer-events: none;
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  /*text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;*/
 }
 
 div {
   font-family: 'Roboto Mono', monospace;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-table, th, td {
-  border: 1px solid black;
-  padding: 5px;
-}
-
-table.centered {
-  margin-left:auto; 
-  margin-right:auto;
 }
 
 .button {

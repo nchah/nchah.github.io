@@ -1,0 +1,66 @@
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	Rank, Route #, Route Name, All-Day Ridership
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	Who, Where, When
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	Rank,Subway/RT Station,To Trains,From Trains,Totals
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+Report Date, Route, Time, Day, Location, Incident, Min Delay, Min Gap, Direction, Vehicle	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+Rank, Route #, Route Name, All-Day Ridership	Who, Where, When
+Rank, Route #, Route Name, All-Day Ridership	Rank,Subway/RT Station,To Trains,From Trains,Totals
+Rank, Route #, Route Name, All-Day Ridership	agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+Rank, Route #, Route Name, All-Day Ridership	service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+Rank, Route #, Route Name, All-Day Ridership	route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+Rank, Route #, Route Name, All-Day Ridership	shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+Rank, Route #, Route Name, All-Day Ridership	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+Rank, Route #, Route Name, All-Day Ridership	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+Rank, Route #, Route Name, All-Day Ridership	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+Rank, Route #, Route Name, All-Day Ridership	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+Who, Where, When	Rank,Subway/RT Station,To Trains,From Trains,Totals
+Who, Where, When	agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+Who, Where, When	service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+Who, Where, When	route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+Who, Where, When	shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+Who, Where, When	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+Who, Where, When	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+Who, Where, When	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+Who, Where, When	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+Rank,Subway/RT Station,To Trains,From Trains,Totals	agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+Rank,Subway/RT Station,To Trains,From Trains,Totals	service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+Rank,Subway/RT Station,To Trains,From Trains,Totals	route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+Rank,Subway/RT Station,To Trains,From Trains,Totals	shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+Rank,Subway/RT Station,To Trains,From Trains,Totals	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+Rank,Subway/RT Station,To Trains,From Trains,Totals	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+Rank,Subway/RT Station,To Trains,From Trains,Totals	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+Rank,Subway/RT Station,To Trains,From Trains,Totals	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url	service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url	route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url	shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date	route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date	shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color	shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled	stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding	route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible	Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle
+Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle	Date,Time,Day,Station,Code,Min Delay,Min Gap,Bound,Line,Vehicle

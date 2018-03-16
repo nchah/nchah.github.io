@@ -1,39 +1,60 @@
-var american_football = [
-  {source: "", target: "</m.01xljnx>", img:"images/analytics.png"},
-  {source: "</m.01xljnx>", predicate: "</type.object.id>", target: "/american_football"},
-  {source: "</m.01xljnx>", predicate: "</common.topic.description>", target: "American Football types pertain to the sport of Football..."},
-  {source: "/american_football", predicate: "</type.domain.types>", target: "/american_football/football_coach"},
-  {source: "/american_football", predicate: "</type.domain.types>", target: "/american_football/football_coach_position"},
-  {source: "/american_football", predicate: "</type.domain.types>", target: "/american_football/football_conference"},
-  {source: "/american_football", predicate: "</type.domain.types>", target: "/american_football/football_division"},
-];
+var data_ttc = [
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Bus Delay Data'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Ridership - All Day Weekday for Surface Routes'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Ridership Analysis'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Ridership - Subway/Scarborough RT Station Usage'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Agency'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Calendar'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Routes'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Shapes'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Stops'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Trips'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Streetcar Delay Data'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data'},
 
+{source:'TTC Bus Delay Data', predicate:'column', target:'Report'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Date'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Route'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Time'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Day'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Location'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Incident'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Min'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Delay'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Min'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Gap'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Direction'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Vehicle'},
 
-if(typeof(String.prototype.trim) === "undefined") {
-  String.prototype.trim = function() {
-    return String(this).replace(/^\s+|\s+$/g, '');
-  };
-}
+{source:'TTC Ridership - All Day Weekday for Surface Routes', predicate:'column', target:'Rank'},
+{source:'TTC Ridership - All Day Weekday for Surface Routes', predicate:'column', target:'Route'},
+{source:'TTC Ridership - All Day Weekday for Surface Routes', predicate:'column', target:'#'},
+{source:'TTC Ridership - All Day Weekday for Surface Routes', predicate:'column', target:'Route'},
+{source:'TTC Ridership - All Day Weekday for Surface Routes', predicate:'column', target:'Name'},
+{source:'TTC Ridership - All Day Weekday for Surface Routes', predicate:'column', target:'All-Day'},
+{source:'TTC Ridership - All Day Weekday for Surface Routes', predicate:'column', target:'Ridership'},
 
-function logIt() {
-  input = document.getElementById('textBox').value.split('\n');
-  console.log(input)
-}
+  ];
 
 
 function draw2() {
+  // Get settings
+  // var nodeSize = document.getElementById('nodeSize').value;
+  var nodeSize = 24;
+  // var labelSize = document.getElementById('labelSize').value;
+  var input = document.getElementById("searchTerm").value;
+  // console.log(nodeSize, labelSize, input);
+  
   // Erase any exisitng
   d3.selectAll("g > *").remove();
-  input = document.getElementById('textBox').value.split('\n');
+  
+  // console.log(input)
 
   var links = [];
-  for (var i = 0; i < input.length; i++) {
-    // Split each triple by:
-    triple = input[i].split(';');
-    triple_data = {source: triple[0].trim(), predicate: triple[1].trim(), target: triple[2].trim()}
-    // console.log(triple_data);
-    links.push(JSON.parse(JSON.stringify(triple_data)));
+  if (input.includes('TTC')) {
+    var links = links.concat(JSON.parse(JSON.stringify(data_ttc)));
   }
+  // var links = data;
   // console.log(links);
 
   var nodes = {};
@@ -43,7 +64,7 @@ function draw2() {
     link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, img: link.img});
   });
   // delete empty node
-  // delete nodes[""]
+  delete nodes[""]
   // console.log(nodes)
   // workaround to let subclusters be unlinked
   for (var i = 0; i < links.length; i++) {
@@ -64,6 +85,13 @@ function draw2() {
       .charge(-800)
       .on("tick", tick)
       .start();
+  // Adding drag feature
+  let drag = force.drag()
+    .on('dragstart', function(d) {
+      d3.select(this).classed('fixed', d.fixed = true);
+      force.stop();
+    });
+
   var svg = d3.select("#visualization")
       .attr("width", width)
       .attr("height", height);
@@ -97,21 +125,18 @@ function draw2() {
       .attr("class", function(d) { return "link " + d.predicate; })  
       .attr("marker-end", function(d) { return "url(#end)" }) //+ d.predicate; });
   // Path labels
-  var labelSize = document.getElementById('labelSize').value;
   var pathLabels = svg.append("g").selectAll("pathLabels")
       .data(force.links())
     .enter().append("text")
       .attr("class", "link-label")
       .style("font-size", labelSize)
-      .text(function(d) { return d.predicate.replace("<", "")
-                                            .replace(">", "")
-                                            .replace(/\./g, "/"); })
+      .text(function(d) { return d.predicate.replace("dataset", "") // Find certain path labels
+                                            .replace("column", ""); })
       .attr("x", function(d) { return (d.source.x + (d.target.x - d.source.x) * 0.5); })
       .attr("y", function(d) { return (d.source.y + (d.target.y - d.source.y) * 0.5); })
       .attr("dy", ".25em")
       .attr("text-anchor", "middle");
   // Nodes
-  var nodeSize = document.getElementById('nodeSize').value;
   var circle = svg.append("g").selectAll("circle")
       .data(force.nodes())
       .enter().append("image")
@@ -120,8 +145,8 @@ function draw2() {
           return d.img;
         } 
         // If it follows a mid or schema format
-        if (d.name.indexOf('/') == 0 && d.name.indexOf('<') == -1 ) {
-          return "images/analytics.png";
+        if (d.name.includes('SEARCH: ') ) {
+          return "images/dataset.png";
         } else { 
           return "images/circle.png";
         }})
@@ -131,7 +156,6 @@ function draw2() {
       .attr("height", nodeSize)
       .call(force.drag);
   // Node labels
-  var labelSize = document.getElementById('labelSize').value;
   var text = svg.append("g").selectAll("text")
       .data(force.nodes())
     .enter().append("text")
@@ -139,7 +163,7 @@ function draw2() {
       .attr("x", -20)
       .attr("y", -16) //".31em")
       .text(function(d) { return d.name; })
-      .call(wrap, 300);
+      .call(wrap, 75);
 
   function wrap(text, width) {
     text.each(function() {
@@ -192,3 +216,14 @@ function draw2() {
     return "translate(" + d.x + "," + d.y + ")";
   };
 };
+
+// window.onload = function() {
+//   document.getElementById('visualizeIt').onclick = function draw2() {
+//     console.log('done2');
+//   }
+// }
+
+// document.getElementById("visualizeIt").addEventListener("click", draw2);
+
+draw2()
+
