@@ -42,6 +42,7 @@ function draw2() {
   // var nodeSize = document.getElementById('nodeSize').value;
   var nodeSize = 24;
   // var labelSize = document.getElementById('labelSize').value;
+  var labelSize = 12;
   var input = document.getElementById("searchTerm").value;
   // console.log(nodeSize, labelSize, input);
   
