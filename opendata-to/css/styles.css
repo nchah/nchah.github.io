@@ -13,28 +13,17 @@
 .link.column {
   stroke: silver;
   stroke-dasharray: 0,2 1;
+  /*stroke-dasharray: 5, 1;*/
 }
 
-.link.type-object-id {
-  stroke: black;
-  /*stroke-opacity: 0.5;*/
-}
-
-.link.type-object-name {
-  stroke: green;
-  /*stroke-opacity: 0.5;*/
-}
-
-.link.type-domain-types {
+.link.datasize {
   stroke: blue;
+  stroke-opacity: 0.5;
+  stroke-dasharray: 0,2 1;
 }
 
-.link.type-type-properties {
-  stroke: skyblue;
-}
-
-.link.competitor {
-  stroke: red;
+.link.numrecords {
+  stroke: purple;
   stroke-opacity: 0.5;
   stroke-dasharray: 0,2 1;
 }
