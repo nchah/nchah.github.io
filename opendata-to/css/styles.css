@@ -19,13 +19,13 @@
 .link.datasize {
   stroke: blue;
   stroke-opacity: 0.5;
-  stroke-dasharray: 0,2 1;
+  /*stroke-dasharray: 0,2 1;*/
 }
 
 .link.numrecords {
   stroke: purple;
   stroke-opacity: 0.5;
-  stroke-dasharray: 0,2 1;
+  /*stroke-dasharray: 0,2 1;*/
 }
 
 circle {

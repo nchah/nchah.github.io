@@ -133,7 +133,7 @@ function draw2() {
   }
   // Define graph parameters
   var width = 1200;
-      height = 500;
+      height = 600;
   var force = d3.layout.force()
       .nodes(d3.values(nodes))
       .links(links)
@@ -166,7 +166,7 @@ function draw2() {
 
   // Per-type markers, as they don't inherit styles.
   svg.append("defs").selectAll("marker")
-      .data(["end"])  // .data(["loves"])
+      .data(["dataset"])  // .data(["end"])
     .enter().append("marker")  // the arrowhead
       .attr("id", function(d) { return d; })
       .attr("viewBox", "0 -5 10 10")
@@ -182,7 +182,8 @@ function draw2() {
       .data(force.links())
     .enter().append("path")
       .attr("class", function(d) { return "link " + d.predicate; })  
-      .attr("marker-end", function(d) { return "url(#end)" }) //+ d.predicate; });
+      // .attr("marker-end", function(d) { return "url(#end)" }) //+ d.predicate; });
+      .attr("marker-end", function(d) { return "url(#" + d.predicate; })
   // Path labels
   var pathLabels = svg.append("g").selectAll("pathLabels")
       .data(force.links())
