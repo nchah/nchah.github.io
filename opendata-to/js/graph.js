@@ -6,12 +6,12 @@ var data_ttc = [
 {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Streetcar Delay Data'},
 {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data'},
 
-{source:'TTC Bus Delay Data', predicate:'datasize', target:'5577KB'},
-{source:'TTC Routes and Schedules - Routes', predicate:'datasize', target:'9KB'},
-{source:'TTC Routes and Schedules - Stops', predicate:'datasize', target:'733KB'},
-{source:'TTC Routes and Schedules - Trips', predicate:'datasize', target:'13881KB'},
-{source:'TTC Streetcar Delay Data', predicate:'datasize', target:'1006KB'},
-{source:'TTC Subway Delay Data', predicate:'datasize', target:'21116KB'},
+{source:'TTC Bus Delay Data', predicate:'datasize', target:'5.57 MB'},
+{source:'TTC Routes and Schedules - Routes', predicate:'datasize', target:'9 KB'},
+{source:'TTC Routes and Schedules - Stops', predicate:'datasize', target:'733 KB'},
+{source:'TTC Routes and Schedules - Trips', predicate:'datasize', target:'13.88 MB'},
+{source:'TTC Streetcar Delay Data', predicate:'datasize', target:'1 MB'},
+{source:'TTC Subway Delay Data', predicate:'datasize', target:'21.11 MB'},
 
 {source:'TTC Bus Delay Data', predicate:'numrecords', target:'5327 Records'},
 {source:'TTC Routes and Schedules - Routes', predicate:'numrecords', target:'198 Records'},
