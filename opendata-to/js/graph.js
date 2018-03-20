@@ -145,7 +145,8 @@ function draw2() {
       .on("tick", tick)
       .start();
   // Adding drag feature
-  let drag = force.drag()
+  //let 
+  drag = force.drag()
     .on('dragstart', function(d) {
       d3.select(this).classed('fixed', d.fixed = true);
       force.stop();
@@ -209,6 +210,11 @@ function draw2() {
         // Change icon
         if (d.name.includes('SEARCH: ') ) {
           return "images/dataset.png";
+        } 
+        if (d.name.includes('KB') || d.name.includes('MB') ) {
+          return "images/database.png";
+        } if (d.name.includes('Records') ) {
+          return "images/spreadsheet.png";
         } else { 
           return "images/circle.png";
         }})
