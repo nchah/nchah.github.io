@@ -209,7 +209,9 @@ function draw2() {
         } 
         // Change icon
         if (d.name.includes('SEARCH: ') ) {
-          return "images/dataset.png";
+          return "images/query.jpg";
+        } if (d.name.includes('TTC ') ) {
+          return "images/dataset2.jpg";
         } 
         if (d.name.includes('KB') || d.name.includes('MB') ) {
           return "images/database.png";
