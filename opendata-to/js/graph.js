@@ -141,6 +141,7 @@ function draw2() {
       .linkDistance(100) //150
       // .linkStrength(0.1)
       // .charge(-1500)
+      // .gravity(0.2)
       .charge(-500)
       .on("tick", tick)
       .start();
@@ -151,6 +152,7 @@ function draw2() {
       d3.select(this).classed('fixed', d.fixed = true);
       force.stop();
     });
+
 
   var svg = d3.select("#visualization")
       .attr("width", width)
@@ -235,6 +237,7 @@ function draw2() {
       .text(function(d) { return d.name; })
       .call(wrap, 75);
 
+
   function wrap(text, width) {
     text.each(function() {
       var text = d3.select(this),
@@ -285,7 +288,20 @@ function draw2() {
   function transform(d) {
     return "translate(" + d.x + "," + d.y + ")";
   };
+
+  var iters = 600; // You can get decent results from 300 if you are pressed for time
+  var thresh = 0.001;
+  for (var i = iters; i > 0; --i) {
+        force.tick();
+        if(force.alpha() < thresh) {
+            //console.log("Reached " + force.alpha() + " for " + data.nodes.length + " node chart after " + (iters - i) + " ticks.");
+            break;
+        }
+    }
+    force.stop();
 };
+
+
 
 // window.onload = function() {
 //   document.getElementById('visualizeIt').onclick = function draw2() {
