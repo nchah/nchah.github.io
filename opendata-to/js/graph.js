@@ -199,8 +199,6 @@ function draw2() {
       .data(force.nodes())
       .enter().append("image")
       .attr("xlink:href", function(d) { 
-        // img = d.img.toString()
-        // if (d.img) {
         if (d.img) {
           // return d.img;
           // console.log(d.img.toString().includes('Datetime') && d.img.toString()[0] == 1);
