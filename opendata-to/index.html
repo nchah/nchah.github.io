@@ -16,6 +16,12 @@
   <span style="color:grey; font-style:italic; font-size:14px;">Search for data sets in Toronto Open Data!</span>
   <br>
   <br>
+  <br>
+  <span style="font-size: 14px;">Search</span>
+  <input style="width: 20%" type="text" id="searchTerm" name="search" value="TTC">
+  <input type="button" class="button" id="visualizeIt" onclick="draw2(); console.log('clicked');" value="Visualize !" />
+  <br>
+  <br>
   <svg id="visualization" style="text-align:center;" width="1200" height="600">
      <!-- <rect width="1200" height="500" border=1 style="fill:none;stroke:black;stroke-width:1;"></rect> -->
   </svg>
@@ -27,12 +33,6 @@
       <span style="color:silver;"> - Column Name,</span>
       <span style="color:blue; opacity: 0.5"> - Data Size,</span>
       <span style="color:purple; opacity: 0.5;"> - Number of Records</span>
-    <br><br>
-    <!-- <form> -->
-    <span style="font-size: 14px;">Search</span>
-    <input style="width: 20%" type="text" id="searchTerm" name="search" value="TTC">
-    <!-- <button class="button" id="visualizeIt">Visualize !</button> -->
-    <input type="button" class="button" id="visualizeIt" onclick="draw2(); console.log('clicked');" value="Visualize !" />
     <br>
     <!-- <span style="font-size: 14px;">Label Size</span> -->
     <!-- <input type="text" id="labelSize" name="labelSize" value="9"> -->
