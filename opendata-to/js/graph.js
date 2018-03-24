@@ -230,30 +230,24 @@ function draw2() {
         else { 
           return "images/circle.png";
         }})
-      // .on("mouseover", function(d) {
-      //   console.log('hovering')
-      //   d3.select(this).select(d.hover).style("visibility", "visible");
-      // })
       .on("mouseover", function(d) { if(d.hover) { return tooltip.text(d.hover).style("visibility", "visible");} })
       .on("mousemove", function(d) { return tooltip.text(d.hover).style("top",
         (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
       .on("mouseout", function(d) { return tooltip.text(d.hover).style("visibility", "hidden");})
       .attr("x", -12)  // about * -0.5 of width/height
       .attr("y", -12)
-      // .append("svg:title").text(function(d) { return d.hover; })
       .attr("width", nodeSize)
       .attr("height", nodeSize)
       .call(force.drag);
 
   var tooltip = d3.select("body")
     .append("div")
-    .style("background-color", "silver")
+    .style("background-color", "skyblue")
     .style("padding", "0.5em")
     .style("font-size", "12px")
     .style("position", "absolute")
     .style("z-index", "10")
     .style("visibility", "hidden");
-    // .text('asdf');
 
 
   // Node labels
