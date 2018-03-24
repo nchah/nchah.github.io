@@ -1,10 +1,10 @@
 var data_ttc = [
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Bus Delay Data'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Routes'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Stops'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Trips'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Streetcar Delay Data'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Bus Delay Data', hover:'6 MB, 5K rows'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Routes', hover:'9 KB, 198 rows'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Stops', hover:'733 KB, 10K rows'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Trips', hover:'14 MB, 16K rows'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Streetcar Delay Data', hover:'1 MB, 14K rows'},
+{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data', hover:' 21 MB, 1K rows'},
 
 // Remove:
 // {source:'TTC Bus Delay Data', predicate:'datasize', target:'5.57 MB'},
@@ -113,7 +113,9 @@ function draw2() {
   // Compute the distinct nodes from the links.
   links.forEach(function(link) {
     link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
-    link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, img: link.img});
+    link.target = nodes[link.target] || (nodes[link.target] = {name: link.target,
+                                                               img: link.img, 
+                                                               hover: link.hover});
   });
   // delete empty node
   delete nodes[""]
@@ -228,11 +230,32 @@ function draw2() {
         else { 
           return "images/circle.png";
         }})
+      // .on("mouseover", function(d) {
+      //   console.log('hovering')
+      //   d3.select(this).select(d.hover).style("visibility", "visible");
+      // })
+      .on("mouseover", function(d) { if(d.hover) { return tooltip.text(d.hover).style("visibility", "visible");} })
+      .on("mousemove", function(d) { return tooltip.text(d.hover).style("top",
+        (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+      .on("mouseout", function(d) { return tooltip.text(d.hover).style("visibility", "hidden");})
       .attr("x", -12)  // about * -0.5 of width/height
       .attr("y", -12)
+      // .append("svg:title").text(function(d) { return d.hover; })
       .attr("width", nodeSize)
       .attr("height", nodeSize)
       .call(force.drag);
+
+  var tooltip = d3.select("body")
+    .append("div")
+    .style("background-color", "silver")
+    .style("padding", "0.5em")
+    .style("font-size", "12px")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden");
+    // .text('asdf');
+
+
   // Node labels
   var text = svg.append("g").selectAll("text")
       .data(force.nodes())
