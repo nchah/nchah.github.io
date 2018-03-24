@@ -6,92 +6,85 @@ var data_ttc = [
 {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Streetcar Delay Data'},
 {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data'},
 
-{source:'TTC Bus Delay Data', predicate:'datasize', target:'5.57 MB'},
-{source:'TTC Routes and Schedules - Routes', predicate:'datasize', target:'9 KB'},
-{source:'TTC Routes and Schedules - Stops', predicate:'datasize', target:'733 KB'},
-{source:'TTC Routes and Schedules - Trips', predicate:'datasize', target:'13.88 MB'},
-{source:'TTC Streetcar Delay Data', predicate:'datasize', target:'1 MB'},
-{source:'TTC Subway Delay Data', predicate:'datasize', target:'21.11 MB'},
+// Remove:
+// {source:'TTC Bus Delay Data', predicate:'datasize', target:'5.57 MB'},
+// {source:'TTC Routes and Schedules - Routes', predicate:'datasize', target:'9 KB'},
+// {source:'TTC Routes and Schedules - Stops', predicate:'datasize', target:'733 KB'},
+// {source:'TTC Routes and Schedules - Trips', predicate:'datasize', target:'13.88 MB'},
+// {source:'TTC Streetcar Delay Data', predicate:'datasize', target:'1 MB'},
+// {source:'TTC Subway Delay Data', predicate:'datasize', target:'21.11 MB'},
 
-{source:'TTC Bus Delay Data', predicate:'numrecords', target:'5327 Records'},
-{source:'TTC Routes and Schedules - Routes', predicate:'numrecords', target:'198 Records'},
-{source:'TTC Routes and Schedules - Stops', predicate:'numrecords', target:'10630 Records'},
-{source:'TTC Routes and Schedules - Trips', predicate:'numrecords', target:'162735 Records'},
-{source:'TTC Streetcar Delay Data', predicate:'numrecords', target:'14033 Records'},
-{source:'TTC Subway Delay Data', predicate:'numrecords', target:'1165 Records'},
+// {source:'TTC Bus Delay Data', predicate:'numrecords', target:'5327 Records'},
+// {source:'TTC Routes and Schedules - Routes', predicate:'numrecords', target:'198 Records'},
+// {source:'TTC Routes and Schedules - Stops', predicate:'numrecords', target:'10630 Records'},
+// {source:'TTC Routes and Schedules - Trips', predicate:'numrecords', target:'162735 Records'},
+// {source:'TTC Streetcar Delay Data', predicate:'numrecords', target:'14033 Records'},
+// {source:'TTC Subway Delay Data', predicate:'numrecords', target:'1165 Records'},
 
-{source:'TTC Bus Delay Data', predicate:'column', target:'Report'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Date'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Route'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Time'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Day'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Location'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Incident'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Min'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Delay'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Min'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Gap'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Direction'},
-{source:'TTC Bus Delay Data', predicate:'column', target:'Vehicle'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Report Date', img:'1Datetime'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Route#', img:'1Number'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Time', img:'1Datetime'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Day', img:'1Text'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Location', img:'1Text'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Incident', img:'1Text'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Min Delay', img:'1Number'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Min Gap', img:'1Number'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Direction', img:'1Text'},
+{source:'TTC Bus Delay Data', predicate:'column', target:'Vehicle', img:'1Number'},
 
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_id'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'agency_id'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_short_name'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_long_name'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_desc'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_type'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_url'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_color'},
-{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_text_color'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_id', img:'1Number'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'agency_id', img:'0Number'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_short_name', img:'0Number'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_long_name', img:'0Text'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_desc', img:'0Text'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_type', img:'0Number'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_url', img:'0Text'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_color', img:'0Text'},
+{source:'TTC Routes and Schedules - Routes', predicate:'column', target:'route_text_color', img:'0Text'},
 
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_id'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_code'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_name'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_desc'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_lat'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_lon'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'zone_id'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_url'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'location_type'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'parent_station'},
-{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'wheelchair_boarding'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_id', img:'0Number'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_code', img:'0Number'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_name', img:'0Text'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_desc', img:'0Text'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_lat', img:'0Number'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_lon', img:'0Number'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'zone_id', img:'0Text'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'stop_url', img:'0Text'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'location_type', img:'0Text'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'parent_station', img:'0Text'},
+{source:'TTC Routes and Schedules - Stops', predicate:'column', target:'wheelchair_boarding', img:'0Number'},
 
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'route_id'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'service_id'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'trip_id'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'trip_headsign'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'trip_short_name'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'direction_id'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'block_id'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'shape_id'},
-{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'wheelchair_accessible'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'route_id', img:'1Number'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'service_id', img:'0Number'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'trip_id', img:'0Number'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'trip_headsign', img:'0Text'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'trip_short_name', img:'0Text'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'direction_id', img:'0Number'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'block_id', img:'0Number'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'shape_id', img:'0Number'},
+{source:'TTC Routes and Schedules - Trips', predicate:'column', target:'wheelchair_accessible', img:'0Number'},
 
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Report'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Date'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Route'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Time'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Day'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Location'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Incident'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Min'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Delay'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Min'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Gap'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Direction'},
-{source:'TTC Streetcar Delay Data', predicate:'column', target:'Vehicle'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Report Date', img:'1Datetime'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Route', img:'1Number'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Time', img:'1Datetime'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Day', img:'1Text'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Location', img:'1Text'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Incident', img:'1Text'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Min Delay', img:'1Number'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Min Gap', img:'1Number'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Direction', img:'1Text'},
+{source:'TTC Streetcar Delay Data', predicate:'column', target:'Vehicle', img:'1Number'},
 
-{source:'TTC Subway Delay Data', predicate:'column', target:'Date'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Time'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Day'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Station'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Code'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Min'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Delay'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Min'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Gap'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Bound'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Line'},
-{source:'TTC Subway Delay Data', predicate:'column', target:'Vehicle'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Date', img:'1Datetime'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Time', img:'1Datetime'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Day', img:'1Text'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Station', img:'0Text'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Code', img:'0Text'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Min Delay', img:'1Number'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Min Gap', img:'1Number'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Bound', img:'0Text'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Line', img:'0Text'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Vehicle', img:'1Number'},
   ];
 
 
@@ -206,20 +199,35 @@ function draw2() {
       .data(force.nodes())
       .enter().append("image")
       .attr("xlink:href", function(d) { 
+        // img = d.img.toString()
+        // if (d.img) {
         if (d.img) {
-          return d.img;
-        } 
-        // Change icon
+          // return d.img;
+          // console.log(d.img.toString().includes('Datetime') && d.img.toString()[0] == 1);
+          dimg = d.img.toString()
+          if (dimg.includes('Datetime') && dimg[0] == 0) {
+            return "images/0datetime.png"; } 
+          if (dimg.includes('Number') && dimg[0] == 0) {
+            return "images/0number.png"; } 
+          if (dimg.includes('Text') && dimg[0] == 0) {
+            return "images/0text.png"; } 
+          if (dimg.includes('Datetime') && dimg[0] == 1 ) {
+            return "images/1datetime.png"; } 
+          if (dimg.includes('Number') && dimg[0] == 1) {
+            return "images/1number.png"; } 
+          if (dimg.includes('Text') && dimg[0] == 1) {
+            return "images/1text.png"; }
+          }
+        // Query icon
         if (d.name.includes('SEARCH: ') ) {
-          return "images/query.jpg";
-        } if (d.name.includes('TTC ') ) {
-          return "images/dataset2.jpg";
-        } 
+          return "images/query.jpg"; } 
+        if (d.name.includes('TTC ') ) {
+          return "images/dataset2.jpg"; } 
         if (d.name.includes('KB') || d.name.includes('MB') ) {
-          return "images/database.png";
-        } if (d.name.includes('Records') ) {
-          return "images/spreadsheet.png";
-        } else { 
+          return "images/database.png"; } 
+        if (d.name.includes('Records') ) {
+          return "images/spreadsheet.png"; } 
+        else { 
           return "images/circle.png";
         }})
       .attr("x", -12)  // about * -0.5 of width/height
@@ -289,7 +297,8 @@ function draw2() {
     return "translate(" + d.x + "," + d.y + ")";
   };
 
-  var iters = 600; // You can get decent results from 300 if you are pressed for time
+  // Make the visualization materialize all at once, no init animations
+  var iters = 800; // You can get decent results from 300 if you are pressed for time
   var thresh = 0.001;
   for (var i = iters; i > 0; --i) {
         force.tick();
