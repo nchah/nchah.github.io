@@ -67,7 +67,7 @@ var data_ttc = [
 {source:'TTC Streetcar Delay Data', predicate:'column', target:'Direction', img:'1Text'},
 {source:'TTC Streetcar Delay Data', predicate:'column', target:'Vehicle', img:'1Number'},
 
-{source:'TTC Subway Delay Data', predicate:'column', target:'Date', img:'1Datetime'},
+{source:'TTC Subway Delay Data', predicate:'column', target:'Date', img:'0Datetime'},
 {source:'TTC Subway Delay Data', predicate:'column', target:'Time', img:'1Datetime'},
 {source:'TTC Subway Delay Data', predicate:'column', target:'Day', img:'1Text'},
 {source:'TTC Subway Delay Data', predicate:'column', target:'Station', img:'0Text'},
