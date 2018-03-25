@@ -1,10 +1,17 @@
 var data_ttc = [
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Bus Delay Data', hover:'6 MB, 5K rows'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Routes', hover:'9 KB, 198 rows'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Stops', hover:'733 KB, 10K rows'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Trips', hover:'14 MB, 16K rows'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Streetcar Delay Data', hover:'1 MB, 14K rows'},
-{source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data', hover:' 21 MB, 1K rows'},
+// {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Bus Delay Data', hover:'6 MB, 5K rows'},
+// {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Routes', hover:'9 KB, 198 rows'},
+// {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Stops', hover:'733 KB, 10K rows'},
+// {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Routes and Schedules - Trips', hover:'14 MB, 16K rows'},
+// {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Streetcar Delay Data', hover:'1 MB, 14K rows'},
+// {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data', hover:' 21 MB, 1K rows'},
+
+{source:'TTC Bus Delay Data', predicate:'column', target:'TTC Bus Delay Data', hover:'6 MB, 5K rows'},
+// {source:'TTC Routes and Schedules - Routes', hover:'9 KB, 198 rows'},
+// {source:'TTC Routes and Schedules - Stops', hover:'733 KB, 10K rows'},
+// {source:'TTC Routes and Schedules - Trips', hover:'14 MB, 16K rows'},
+// {source:'TTC Streetcar Delay Data', hover:'1 MB, 14K rows'},
+// {source:'TTC Subway Delay Data', hover:' 21 MB, 1K rows'},
 
 // Remove:
 // {source:'TTC Bus Delay Data', predicate:'datasize', target:'5.57 MB'},
@@ -112,7 +119,7 @@ function draw2() {
   var nodes = {};
   // Compute the distinct nodes from the links.
   links.forEach(function(link) {
-    link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+    link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, hover: link.hover});
     link.target = nodes[link.target] || (nodes[link.target] = {name: link.target,
                                                                img: link.img, 
                                                                hover: link.hover});
