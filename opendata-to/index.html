@@ -17,20 +17,49 @@
   <br>
   <br>
   <br>
-  <span style="font-size: 14px;">Search</span>
-  <input style="width: 20%" type="text" id="searchTerm" name="search" value="TTC">
-  <input type="button" class="button" id="visualizeIt" onclick="draw2(); console.log('clicked');" value="Visualize !" />
-  <br>
-  <br>
-  <span style="color:black; font-weight:bold; text-decoration:underline; font-size:14px;">Tips</span><br>
+  <span style="color:black; font-weight:bold; text-decoration:underline; font-size:16px;">User Guide</span>
+  <br><br>
   <span style="color:grey; font-style:italic; font-size:14px;">Click and drag nodes to anchor them. Other nodes rearrange automatically.</span><br>
   <span style="color:grey; font-style:italic; font-size:14px;">As you move the nodes, click on any node again to freeze the layout.</span>
   <br>
   <br>
-
-  <svg id="visualization" style="text-align:center;" width="1200" height="600">
-     <!-- <rect width="1200" height="500" border=1 style="fill:none;stroke:black;stroke-width:1;"></rect> -->
-  </svg>
+  <span style="color:grey; font-size:14px;">The different nodes represent different information.</span>
+  <br>
+  <br>
+  <span style="color:black; text-decoration:underline; font-size:14px;">Table 1. Legend for Node Types</span>
+  <table id="table1">
+    <tr>
+      <td></td>
+      <th>Datetime</th>
+      <th>Number</th>
+      <th>Text</th>
+    </tr>
+    <tr>
+      <th>Non-intersecting column</th>
+      <td><img src="images/0datetime.png" width="24" height="24"></td>
+      <td><img src="images/0number.png" width="24" height="24"></td>
+      <td><img src="images/0text.png" width="24" height="24"></td>
+    </tr>
+    <tr>
+      <th>Intersecting column</th>
+      <td><img src="images/1datetime.png" width="24" height="24"></td>
+      <td><img src="images/1number.png" width="24" height="24"></td>
+      <td><img src="images/1text.png" width="24" height="24"></td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <span style="font-size: 14px;">Search</span>
+  <input style="width: 20%" type="text" id="searchTerm" name="search" value="TTC">
+  <input type="button" class="button" id="visualizeIt" onclick="draw2();console.log('clicked'); document.getElementById('viz').scrollIntoView({behavior: 'smooth'});" value="Visualize !" />
+  <br>
+  <div id="viz">
+    <br>
+    <svg id="visualization" style="text-align:center;" width="1200" height="600">
+      <!-- <rect width="1200" height="500" border=1 style="fill:none;stroke:black;stroke-width:1;"></rect> -->
+    </svg>
+  </div>
   <br>
   <br>
   <div style="text-align:center;">
