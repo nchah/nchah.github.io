@@ -86,7 +86,7 @@ function draw2() {
   var nodeSize = 24;
   // var labelSize = document.getElementById('labelSize').value;
   var labelSize = 12;
-  var input = document.getElementById("searchTerm").value;
+  var input = document.getElementById("searchTerm").value.toLowerCase();
   // console.log(nodeSize, labelSize, input);
   
   // Erase any exisitng
@@ -95,7 +95,7 @@ function draw2() {
   // console.log(input)
 
   var links = [];
-  if (input.includes('TTC')) {
+  if (input.includes('ttc')) {
     var links = links.concat(JSON.parse(JSON.stringify(data_ttc)));
   }
   // var links = data;
