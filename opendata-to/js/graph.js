@@ -315,7 +315,7 @@ function draw2() {
         }
     }
     var elem = document.getElementById("myBar");
-    if (elem.innerHTML == "Loaded: 100%") {
+    if (elem.innerHTML == "Progress: 100%") {
       force.stop();
   }
 };
@@ -343,7 +343,7 @@ function move() {
         } else {
             width++;
             // elem.style.width = width + '%';
-            elem.innerHTML = 'Loaded: ' + width * 1 + '%';
+            elem.innerHTML = 'Progress: ' + width * 1 + '%';
         }
     }
 }
