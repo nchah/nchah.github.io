@@ -314,7 +314,10 @@ function draw2() {
             break;
         }
     }
-    force.stop();
+    var elem = document.getElementById("myBar");
+    if (elem.innerHTML == "Loaded: 100%") {
+      force.stop();
+  }
 };
 
 
@@ -329,3 +332,18 @@ function draw2() {
 
 draw2()
 
+function move() {
+    var elem = document.getElementById("myBar");
+    var width = 25;
+    var id = setInterval(frame, 5);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+            draw2();
+        } else {
+            width++;
+            // elem.style.width = width + '%';
+            elem.innerHTML = 'Loaded: ' + width * 1 + '%';
+        }
+    }
+}

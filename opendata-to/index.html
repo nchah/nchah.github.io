@@ -19,12 +19,26 @@
   <br>
   <span style="color:black; font-weight:bold; text-decoration:underline; font-size:16px;">User Guide</span>
   <br><br>
-  <span style="color:grey; font-style:italic; font-size:14px;">Click and drag nodes to anchor them. Other nodes rearrange automatically.</span><br>
-  <span style="color:grey; font-style:italic; font-size:14px;">As you move the nodes, click on any node again to freeze the layout.</span>
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">How to search?</span><br>
+  <!-- bulk text -->
+  <div style="color:black; font-size:14px; width:50%; margin-left:25%; margin-right:25%;">
+  Enter the search key word in search bar and click ‘Visualize!’ button.<br>
+  <br>
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">How to view the search result?</span><br>
+  Space below the search bar will construct the results in visual network arrangement.
+  <br>
+  <br>  
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">How are the datasets arranged in the visualization area?</span><br>
+  Dataset without any relation will be spatially arranged.  Dataset that related to other dataset will be arranged closer to each other.  Column names that are common between the dataset connects the related dataset.
   <br>
   <br>
-  <span style="color:grey; font-size:14px;">The different nodes represent different information.</span>
-  <br>
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">How are the related columns differentiated from other types?</span><br>
+  <div style="text-align:left">
+  - Date or time columns are represented with calendar/clock icon.<br>
+  - Number is represented with number "12" within circle. It includes both integer and non integers.<br>
+  - Text is represented with alphabet "a".<br>
+  - Columns that are not related are only in grey. Columns that are related has sky blue ring to icon.<br>
+  </div>
   <br>
   <span style="color:black; text-decoration:underline; font-size:14px;">Table 1. Legend for Node Types</span>
   <table id="table1">
@@ -48,18 +62,43 @@
     </tr>
   </table>
   <br>
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">Can user arrange the datasets and its columns?</span><br>
+  Yes. The user can arrange the datasets and columns as per their need and convenience.  Single click on any dataset will make the entire result visualization flexible and interactive.
   <br>
   <br>
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">How to freeze the visualization?</span><br>
+  Once the user has arranged the dataset or column names, single mouse click on the dataset will freeze the visualization display.
   <br>
   <br>
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">How to know additional information about dataset?</span><br>
+  Move the mouse pointer over the dataset. Small pop-up window displays the dataset size and total number of records in it.
+  <br>
+  <br>
+  <span style="color:grey; font-style:italic; text-decoration:underline; font-size:14px;">How to know additional information about columns within dataset?</span><br>
+  <br>
+  Move the mouse pointer over the column icon. Small pop-up window displays abstracted information depending on the column data type. Possible value ranges will be shown based on data attributes:
+  <div style="text-align:left">
+  - Nominal attributes - Mode. E.g., frequently occuring Route id.<br>
+  - Binary attributes - All occuring binary values. E.g., wheel boarding or not.<br>
+  - Ordinal attributes - Range of value occuring within dataset. E.g.: ranking.<br>
+  - Numeric attributes - Average and range.<br>
+  </div>
+  </div>
+  <br>
+<!--   <span style="color:grey; font-style:italic; font-size:14px;">Click and drag nodes to anchor them. Other nodes rearrange automatically.</span><br>
+  <span style="color:grey; font-style:italic; font-size:14px;">As you move the nodes, click on any node again to freeze the layout.</span><br>
+  <span style="color:grey; font-size:14px;">The different nodes represent different information.</span>
+ -->
   <br>
   <br>
   <br>
   <br>
   <span style="font-size: 14px;">Search</span>
   <input style="width: 20%" type="text" id="searchTerm" name="search" value="TTC">
-  <input type="button" class="button" id="visualizeIt" onclick="draw2();console.log('clicked'); document.getElementById('visualizeIt').scrollIntoView({behavior: 'smooth'});" value="Visualize !" />
+  <input type="button" class="button" id="visualizeIt" onclick="move();console.log('clicked'); document.getElementById('visualizeIt').scrollIntoView({behavior: 'smooth'});" value="Visualize !" />
   <br>
+  <br>
+  <div id="myProgress"><div id="myBar">Loaded: 0%</div></div>
   <div id="viz">
     <br>
     <svg id="visualization" style="text-align:center;" width="1200" height="600">
@@ -68,13 +107,12 @@
   </div>
   <br>
   <br>
-  <div style="text-align:center;">
-      <span style="">Legend:</span>
+  <!-- <div style="text-align:center;"> -->
+      <!-- <span style="">Legend:</span> -->
       <!-- <span style="color:green; opacity: 0.5;"> ➜ Dataset, </span> -->
-      <span style="color:silver;"> - Column Name,</span>
+      <!-- <span style="color:silver;"> - Column Name,</span> -->
       <!-- <span style="color:blue; opacity: 0.5"> - Data Size,</span> -->
-      <!-- <span style="color:purple; opacity: 0.5;"> - Number of Records</span> -->
-    <br>
+      <!-- <span style="color:purple; opacity: 0.5;"> - Number of Records</span><br> -->
     <!-- <span style="font-size: 14px;">Label Size</span> -->
     <!-- <input type="text" id="labelSize" name="labelSize" value="9"> -->
     <!-- <span style="font-size: 14px;">Node Size</span> -->

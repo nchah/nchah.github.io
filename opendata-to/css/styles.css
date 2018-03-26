@@ -50,6 +50,17 @@ th {
   /*color: white;*/
 }
 
+#myBar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 25px;
+  background-color: skyblue;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 25px; /* To center it vertically */
+  color: black;
+}
+
 circle {
   fill: #ccc;
   stroke: #333;
