@@ -330,7 +330,7 @@ function draw2() {
 
 // document.getElementById("visualizeIt").addEventListener("click", draw2);
 
-draw2()
+// draw2()
 
 function move() {
     var elem = document.getElementById("myBar");
