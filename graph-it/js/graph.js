@@ -103,10 +103,8 @@ function draw2() {
       .data(force.links())
     .enter().append("text")
       .attr("class", "link-label")
-      .style("font-size", labelSize)
-      .text(function(d) { return d.predicate.replace("<", "")
-                                            .replace(">", "")
-                                            .replace(/\./g, "/"); })
+      .style("font-size", labelSize + "px")
+      .text(function(d) { return d.predicate.replace("", ""); })
       .attr("x", function(d) { return (d.source.x + (d.target.x - d.source.x) * 0.5); })
       .attr("y", function(d) { return (d.source.y + (d.target.y - d.source.y) * 0.5); })
       .attr("dy", ".25em")
@@ -126,8 +124,8 @@ function draw2() {
         } else { 
           return "images/circle.png";
         }})
-      .attr("x", -12)  // about * -0.5 of width/height
-      .attr("y", -12)
+      .attr("x", nodeSize * -0.5)  // about * -0.5 of width/height
+      .attr("y", nodeSize * -0.5)
       .attr("width", nodeSize)
       .attr("height", nodeSize)
       .call(force.drag);
@@ -136,7 +134,7 @@ function draw2() {
   var text = svg.append("g").selectAll("text")
       .data(force.nodes())
     .enter().append("text")
-      .style("font-size", labelSize)
+      .style("font-size", labelSize + "px")
       .attr("x", -20)
       .attr("y", -16) //".31em")
       .text(function(d) { return d.name; })

@@ -7,19 +7,18 @@
 </head>
 <body>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
-  <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css"> -->
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <script src="https://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript" src="js/graph.js"></script>
-  <!-- <script type="text/javascript" src="data/am_football.json"></script> -->
-  <!-- <script type="text/javascript" src="js/d3.js"></script> -->
+
   
 <div style="text-align:center;">
   <br>
   <span style="font-size: 18px;">GraphIt Explorer</span>
   <br>
+  <div>
   <span style="color:grey; font-style:italic; font-size:14px;">A force-directed graph of arbitrary triples.</span>
+  </div>
   <br>
   <br>
   <svg id="visualization" style="text-align:center;" width="1200" height="500">
@@ -30,9 +29,9 @@
   <div style="text-align:center;">
     <form>
       <span style="font-size: 14px;">Label Size</span>
-      <input type="text" id="labelSize" name="labelSize" value="24">
+      <input type="text" id="labelSize" name="labelSize" value="12">
       <span style="font-size: 14px;">Node Size</span>
-      <input type="text" id="nodeSize" name="nodeSize" value="32">
+      <input type="text" id="nodeSize" name="nodeSize" value="12">
       <!-- <button class="button" id="graphIt" onclick="draw2()">Apply Settings</button> -->
     </form>
   </div>

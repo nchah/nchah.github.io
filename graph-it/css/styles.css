@@ -33,7 +33,6 @@
   stroke: skyblue;
 }
 
-
 .link.competitor {
   stroke: red;
   stroke-opacity: 0.5;
@@ -49,7 +48,7 @@ circle {
 .link-label {
   fill: grey;
   font-family: 'Roboto Mono', monospace;
-  /*font-size: 9px;  */
+  /*font-size: 10px;*/
   font-weight: bold;
   pointer-events: none;
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
@@ -58,7 +57,7 @@ circle {
 text {
   fill: black;
   font-family: 'Roboto Mono', monospace;
-  /*font-size: 9px;*/
+  /*font-size: 10px;*/s
   font-weight: bold;
   pointer-events: none;
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
