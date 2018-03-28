@@ -116,9 +116,7 @@ function draw2() {
       .enter().append("image")
       .attr("xlink:href", function(d) { 
         if (d.img) {
-          return d.img; } 
-        if (d.name.includes('/')) {
-          return "images/analytics.png"; }
+          return d.img; }
         else { 
           return "images/dark-circle.png";
         }})
