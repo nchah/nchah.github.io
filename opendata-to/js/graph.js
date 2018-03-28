@@ -7,17 +7,23 @@ var data_ttc = [
 // {source:'SEARCH: TTC', predicate:'dataset', target:'TTC Subway Delay Data', hover:' 21 MB, 1K rows'},
 
 {source:'TTC Bus Delay Data', predicate:'column', target:'TTC Bus Delay Data', 
-  hover:'6 MB, 5K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#bb967f18-8d90-defc-2946-db3543648bd6'},
+  hover:'6 MB, 5K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#bb967f18-8d90-defc-2946-db3543648bd6',
+  desc:'Report on TTC Bus delay incident and its impact.'},
 {source:'TTC Routes and Schedules - Routes', predicate:'column', target:'TTC Routes and Schedules - Routes', 
-  hover:'9 KB, 198 rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#f9f5cc1d-11c0-4f2e-27bb-8e5ef422e748'},
+  hover:'9 KB, 198 rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#f9f5cc1d-11c0-4f2e-27bb-8e5ef422e748',
+  desc:'TTC service route name, destination, type'},
 {source:'TTC Routes and Schedules - Stops', predicate:'column', target:'TTC Routes and Schedules - Stops', 
-  hover:'733 KB, 10K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#f9f5cc1d-11c0-4f2e-27bb-8e5ef422e748'},
+  hover:'733 KB, 10K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#f9f5cc1d-11c0-4f2e-27bb-8e5ef422e748',
+  desc:'Report on TTC service stop location name, GIS co-ordinates'},
 {source:'TTC Routes and Schedules - Trips', predicate:'column', target:'TTC Routes and Schedules - Trips', 
-  hover:'14 MB, 16K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#f9f5cc1d-11c0-4f2e-27bb-8e5ef422e748'},
+  hover:'14 MB, 16K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#f9f5cc1d-11c0-4f2e-27bb-8e5ef422e748',
+  desc:'Report on TTC trips name, direction'},
 {source:'TTC Streetcar Delay Data', predicate:'column', target:'TTC Streetcar Delay Data', 
-  hover:'1 MB, 14K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#e8f359f0-2f47-3058-bf64-6ec488de52da'},
+  hover:'1 MB, 14K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#e8f359f0-2f47-3058-bf64-6ec488de52da',
+  desc:'Report on TTC streetcar service delay incident and its impact.'},
 {source:'TTC Subway Delay Data', predicate:'column', target:'TTC Subway Delay Data', 
-  hover:' 21 MB, 1K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#917dd033-1fe5-4ba8-04ca-f683eec89761'},
+  hover:' 21 MB, 1K rows', url:'https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#917dd033-1fe5-4ba8-04ca-f683eec89761',
+  desc:'Report on TTC subway service delay incident and its impact.'},
 
 {source:'TTC Bus Delay Data', predicate:'column', target:'Report Date', img:'1Datetime', hover:'YYYY-MM-DD'},
 {source:'TTC Bus Delay Data', predicate:'column', target:'Route#', img:'0Number', hover:'1-999'},
@@ -110,7 +116,10 @@ function draw2() {
   var nodes = {};
   // Compute the distinct nodes from the links.
   links.forEach(function(link) {
-    link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, hover: link.hover, url: link.url});
+    link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, 
+                                                                     hover: link.hover, 
+                                                                     url: link.url,
+                                                                     desc: link.desc});
     link.target = nodes[link.target] || (nodes[link.target] = {name: link.target,
                                                                img: link.img, 
                                                                hover: link.hover,
@@ -237,9 +246,10 @@ function draw2() {
       // Double clicking
       .on("dblclick", function(d) { durl = d.url.toString(); window.open(durl, "_blank"); })
       // Right click
-      .on("contextmenu", function(d, index) {
+      .on("contextmenu", function(d) {
         //stop showing browser menu
-        d3.event.preventDefault(); })
+        d3.event.preventDefault();
+        return tooltip.text(d.desc).style("visibility", "visible"); })
       .attr("x", -12)  // about * -0.5 of width/height
       .attr("y", -12)
       .attr("width", nodeSize)
