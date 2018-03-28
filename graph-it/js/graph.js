@@ -62,7 +62,7 @@ function draw2() {
       .linkDistance(50) //150
       // .linkStrength(0.1)
       // .charge(-1500)
-      .charge(-800)
+      .charge(-80)
       .on("tick", tick)
       .start();
   // Adding drag feature
@@ -101,11 +101,17 @@ function draw2() {
     .append("path")
       .attr("d", "M0,-5L10,0L0,5");
   // Paths
+  var arrows = document.getElementById('arrows').checked;
   var path = svg.append("g").selectAll("path")
       .data(force.links())
     .enter().append("path")
       .attr("class", function(d) { return "link " + d.predicate; })  
-      .attr("marker-end", function(d) { return "url(#end)" }) //+ d.predicate; });
+      .attr("marker-end", function(d) { 
+        if (arrows) {
+          return "url(#end)"; }
+        else {
+          return "url(#" + d.predicate + ")"; } 
+        });
   // Path labels
   var labelSize = document.getElementById('labelSize').value;
   var pathLabels = svg.append("g").selectAll("pathLabels")
