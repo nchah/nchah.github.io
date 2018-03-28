@@ -54,17 +54,26 @@ function draw2() {
   }
   // Define graph parameters
   var width = 1200;
-      height = 500;
+      height = 700;
   var force = d3.layout.force()
       .nodes(d3.values(nodes))
       .links(links)
       .size([width, height])
-      .linkDistance(100) //150
+      .linkDistance(50) //150
       // .linkStrength(0.1)
       // .charge(-1500)
       .charge(-800)
       .on("tick", tick)
       .start();
+  // Adding drag feature
+  //let 
+  drag = force.drag()
+    .on('dragstart', function(d) {
+      d3.select(this).classed('fixed', d.fixed = true);
+      force.stop();
+    });
+
+
   var svg = d3.select("#visualization")
       .attr("width", width)
       .attr("height", height);
