@@ -116,13 +116,11 @@ function draw2() {
       .enter().append("image")
       .attr("xlink:href", function(d) { 
         if (d.img) {
-          return d.img;
-        } 
-        // If it follows a mid or schema format
-        if (d.name.indexOf('/') == 0 && d.name.indexOf('<') == -1 ) {
-          return "images/analytics.png";
-        } else { 
-          return "images/circle.png";
+          return d.img; } 
+        if (d.name.includes('/')) {
+          return "images/analytics.png"; }
+        else { 
+          return "images/dark-circle.png";
         }})
       .attr("x", nodeSize * -0.5)  // about * -0.5 of width/height
       .attr("y", nodeSize * -0.5)
