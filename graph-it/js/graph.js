@@ -113,13 +113,17 @@ function draw2() {
           return "url(#" + d.predicate + ")"; } 
         });
   // Path labels
+  var labels_checkbox = document.getElementById('labels').checked;
   var labelSize = document.getElementById('labelSize').value;
   var pathLabels = svg.append("g").selectAll("pathLabels")
       .data(force.links())
     .enter().append("text")
       .attr("class", "link-label")
       .style("font-size", labelSize + "px")
-      .text(function(d) { return d.predicate.replace("", ""); })
+      .text(function(d) { 
+        if (labels_checkbox) { return d.predicate; }
+        else { return ""; } 
+      })
       .attr("x", function(d) { return (d.source.x + (d.target.x - d.source.x) * 0.5); })
       .attr("y", function(d) { return (d.source.y + (d.target.y - d.source.y) * 0.5); })
       .attr("dy", ".25em")
@@ -148,7 +152,10 @@ function draw2() {
       .style("font-size", labelSize + "px")
       .attr("x", -20)
       .attr("y", -16) //".31em")
-      .text(function(d) { return d.name; })
+      .text(function(d) { 
+        if (labels_checkbox) { return d.name; }
+        else { return ""; } 
+      })
       .call(wrap, 300);
 
   function wrap(text, width) {
