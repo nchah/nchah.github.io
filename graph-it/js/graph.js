@@ -54,7 +54,7 @@ function draw2() {
   }
   // Define graph parameters
   var width = 1200;
-      height = 700;
+      height = 500;
   var force = d3.layout.force()
       .nodes(d3.values(nodes))
       .links(links)
