@@ -43,15 +43,7 @@ function draw2() {
     link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
     link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, img: link.img});
   });
-  // delete empty node
-  // delete nodes[""]
-  // console.log(nodes)
-  // workaround to let subclusters be unlinked
-  for (var i = 0; i < links.length; i++) {
-    if (links[i].source.name == "") {
-      links.splice(i, 1);
-    }
-  }
+
   // Define graph parameters
   var width = 1200;
       height = 500;
@@ -59,7 +51,7 @@ function draw2() {
       .nodes(d3.values(nodes))
       .links(links)
       .size([width, height])
-      .linkDistance(50) //150
+      .linkDistance(75) //150
       // .linkStrength(0.1)
       // .charge(-1500)
       .charge(-80)
