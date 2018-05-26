@@ -52,13 +52,12 @@ function draw2() {
       .links(links)
       .size([width, height])
       .linkDistance(75) //150
-      // .linkStrength(0.1)
+      .linkStrength(0.01)
       // .charge(-1500)
-      .charge(-80)
+      .charge(-300)
       .on("tick", tick)
       .start();
   // Adding drag feature
-  //let 
   drag = force.drag()
     .on('dragstart', function(d) {
       d3.select(this).classed('fixed', d.fixed = true);
