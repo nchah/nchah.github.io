@@ -26,7 +26,12 @@ function draw2() {
   // Erase any exisitng
   d3.selectAll("g > *").remove();
   input = document.getElementById('textBox').value.split('\n');
+  // Remove whitespace and empty str in input array
+  input = input.filter(function(str) {  
+    return /\S/.test(str);
+  });
 
+  console.log(input)
   var links = [];
   for (var i = 0; i < input.length; i++) {
     // Split each triple by:
