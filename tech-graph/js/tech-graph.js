@@ -219,6 +219,7 @@ var ibm = [
 
 var microsoft = [
   {source: "", target: "Microsoft", img: "images/microsoft.png"},
+  {source: "Microsoft", target: "GitHub", type: "acquisition", img: "images/github.png"},
   {source: "Microsoft", target: "Hotmail", type: "acquisition", img: "images/hotmail.png"},
   {source: "Hotmail", target: "Outlook.com", type: "transition", img: "images/outlook.png"},
   {source: "Microsoft", target: "Bing", type: "main", img:"images/bing.png"},
@@ -374,6 +375,12 @@ function draw(checks) {
       .charge(-250)
       .on("tick", tick)
       .start();
+  // Disabled: Adding drag feature
+  // drag = force.drag()
+  //   .on('dragstart', function(d) {
+  //     d3.select(this).classed('fixed', d.fixed = true);
+  //     force.stop();
+  //   });
   var svg = d3.select("#visualization")
       .attr("width", width)
       .attr("height", height);
