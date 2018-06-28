@@ -62,26 +62,31 @@ function draw2() {
       .charge(-300)
       .on("tick", tick)
       .start();
-  // Adding drag feature
+  // Node dragging behavior
   drag = force.drag()
-    .on('dragstart', function(d) {
-      d3.select(this).classed('fixed', d.fixed = true);
-      force.stop();
-    });
+    .origin(function(d) { return d; })
+    .on("dragstart", dragstarted)
+    .on("drag", dragged)
+    .on("dragend", dragended);
 
 
   var svg = d3.select("#visualization")
       .attr("width", width)
-      .attr("height", height);
+      .attr("height", height)
+      // Zoom behavior
+      .call(d3.behavior.zoom().on("zoom", function () {
+        svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
+        }))
+      .append("g");
   // Add a border around the visualization box
-  var borderPath = svg.append("rect")
-          .attr("x", 0)
-          .attr("y", 0)
-          .attr("height", height)
-          .attr("width", width)
-          .style("stroke", "black")
-          .style("fill", "none")
-          .style("stroke-width", 1);
+  // var borderPath = svg.append("rect")
+  //         .attr("x", 0)
+  //         .attr("y", 0)
+  //         .attr("height", height)
+  //         .attr("width", width)
+  //         .style("stroke", "black")
+  //         .style("fill", "none")
+  //         .style("stroke-width", 1);
 
   // Per-type markers, as they don't inherit styles.
   svg.append("defs").selectAll("marker")
@@ -205,3 +210,19 @@ function draw2() {
     return "translate(" + d.x + "," + d.y + ")";
   };
 };
+
+function dragstarted(d) {
+  d3.event.sourceEvent.stopPropagation();
+  d3.select(this).classed("dragging", true);
+  // Makes moved nodes sticky
+  d3.select(this).classed('fixed', d.fixed = true);
+  d3.force.stop();
+}
+
+function dragged(d) {
+  d3.select(this).attr("cx", d.x = d3.event.x).attr("cy", d.y = d3.event.y);
+}
+
+function dragended(d) {
+  d3.select(this).classed("dragging", false);
+}
