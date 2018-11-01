@@ -215,7 +215,12 @@ var ibm = [
   {source: "IBM", target: "Kenexa", type: "acquisition", img: "images/kenexa.png"},
   {source: "Kenexa", target: "BrassRing", type: "main", img: "images/kenexa.png"},
   {source: "IBM", target: "Lotus Notes", type: "acquisition", img: "images/lotus.png"},
-  {source: "Lotus Notes", target: "IBM Notes", type: "transition", img: "images/ibm-notes.png"}
+  {source: "Lotus Notes", target: "IBM Notes", type: "transition", img: "images/ibm-notes.png"},
+  {source: "IBM", target: "Red Hat", type: "acquisition", img: "images/red-hat.png"},
+  {source: "Red Hat", target: "Fedora", type: "main", img: "images/fedora.png"},
+  {source: "Red Hat", target: "CentOS", type: "acquisition", img: "images/centos.png"},
+  {source: "Red Hat", target: "CoreOS", type: "acquisition", img: "images/coreos.png"},
+  {source: "Red Hat", target: "Ansible", type: "acquisition", img: "images/ansible.png"}
 ];
 
 var microsoft = [
