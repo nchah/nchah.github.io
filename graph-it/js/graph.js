@@ -57,7 +57,7 @@ function draw2() {
       .links(links)
       .size([width, height])
       .linkDistance(75) //150
-      .linkStrength(0.01)
+      // .linkStrength(0.01)
       // .charge(-1500)
       .charge(-300)
       .on("tick", tick)
@@ -99,6 +99,7 @@ function draw2() {
       .attr("markerWidth", 6)
       .attr("markerHeight", 6)
       .attr("orient", "auto")
+      .attr("fill", "green")  // arrowhead color
     .append("path")
       .attr("d", "M0,-5L10,0L0,5");
   // Paths
