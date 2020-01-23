@@ -1,0 +1,132 @@
+.question {
+  color: black;
+  font-weight: bold;
+  /*font-style: italic;*/
+  /*text-decoration: underline;*/
+  font-size: 14px;
+  text-align: center;
+}
+
+.answer {
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  /*width:50%;
+  margin-left:25%;
+  margin-right:25%;*/
+}
+
+.link {
+  fill: none;
+  stroke: green;
+  stroke-width: 1.5px;
+}
+
+.link.main {
+  stroke: green;
+  stroke-linecap: butt;
+  stroke-opacity: 0.5;
+}
+
+.link.common-topic-description {
+  stroke: silver;
+  /*stroke-dasharray: 0,2 1;*/
+}
+
+.link.type-object-id {
+  stroke: black;
+  /*stroke-opacity: 0.5;*/
+}
+
+.link.type-object-name {
+  stroke: green;
+  /*stroke-opacity: 0.5;*/
+}
+
+.link.type-domain-types {
+  stroke: blue;
+}
+
+.link.type-type-properties {
+  stroke: skyblue;
+}
+
+.link.competitor {
+  stroke: red;
+  stroke-opacity: 0.5;
+  stroke-dasharray: 0,2 1;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+.link-label {
+  fill: blue;
+  font-family: 'Roboto Mono', monospace;
+  /*font-size: 10px;*/
+  font-weight: bold;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+text {
+  fill: black;
+  font-family: 'Roboto Mono', monospace;
+  /*font-size: 10px;*/s
+  font-weight: bold;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+div {
+  font-family: 'Roboto Mono', monospace;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table.centered {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.button {
+  background-color: skyblue; 
+  border: none;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+textarea {
+  font-size: 14px;
+  width: 80%;
+  height: 15  0px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=text] {
+  font-size: 14px;
+  width: 10%;
+  padding: 5px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+ <!-- Adapted from http://bl.ocks.org/mbostock/1153292 -->
+<head>
+  <meta charset="utf-8">
+  <title>INF2190</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="js/graph.js"></script>
+  <!-- <script type="text/javascript" src="js/d3.js"></script> -->
+  
+<div style="text-align:center;">
+    <br>
+    <span style="font-size: 16px;">INF2190 Data Analytics Groups</span>
+    <br>
+    <span style="color:grey; font-style:italic; font-size:12px;">A force-directed graph of group composition for INF2190 Fall 2017</span>
+    <br>
+    <br>
+    <svg id="visualization" style="text-align:center;"></svg>
+    <div>
+      <span style="">Legend:</span>
+      <span style="color:green; opacity: 0.5;"> - link</span>
+      <!-- <span style="color:gold;"> - acquisition</span> -->
+      <br>
+      <br>
+      <br>
+      <span class="mdl-checkbox__label" style="font-size:14px;">Sections</span>
+    </div>
+    <div style="display:flex; margin:0 auto; width:25%;">
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1" style="display:flex;">
+        <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" onclick="a1();" value="tues" checked>
+        <span class="mdl-checkbox__label" style="font-size:14px;">Tuesday</span>
+      </label>
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2" style="display:flex;">
+        <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" onclick="a1();" value="thurs" checked>
+        <span class="mdl-checkbox__label" style="font-size:14px;">Thursday</span>
+      </label>
+    </div>
+    <br>
+    <br>
+    <div style="text-align:center;">
+    Tuesday Groups
+    <br>
+    <br>
+      <table class="centered" style="width:75%;">
+        <thead>
+          <tr>
+            <th>Groups</th>
+            <th>Emails (append "mail.utoronto.ca" if not specified)</th>
+            <th>Names</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <div style="text-align:center;">
+    Thursday Groups
+    <br>
+    <br>
+      <table class="centered" style="width:75%;">
+        <thead>
+          <tr>
+            <th>Groups</th>
+            <th>Emails (append "mail.utoronto.ca" if not specified)</th>
+            <th>Names</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+<script type="text/javascript" src="js/graph.js"></script>
+</div>
+</body>
+</html>

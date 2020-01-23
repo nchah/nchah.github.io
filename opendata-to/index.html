@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+ <!-- Adapted from http://bl.ocks.org/mbostock/1153292 -->
+<head>
+  <meta charset="utf-8">
+  <title>Telescope</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <!-- <script type="text/javascript" src="js/graph.js"></script> -->
+</head>
+<body>
+  
+<div style="text-align:center;">
+  <div style="color:grey; font-weight:bold; font-size:14px; background-color:lightyellow;">Demo mode: restricted querying.</div>
+  <br>
+  <span style="font-size: 18px;">Telescope</span>
+  <br>
+  <span style="color:grey; font-style:italic; font-size:14px;">(v1.0.1) Search for data sets in Toronto Open Data!</span>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  <span style="font-size: 14px;">Search</span>
+  <input style="width: 20%" type="text" id="searchTerm" name="search" value="TTC">
+  <input type="button" class="button" id="visualizeIt" onclick="move();console.log('clicked'); document.getElementById('visualizeIt').scrollIntoView({behavior: 'smooth'});" value="Visualize!" />
+  <br>
+  <br>
+  <div id="myProgress"><div id="myBar">Progress: 0%</div></div>
+  <div id="viz">
+    <br>
+    <svg id="visualization" style="text-align:center;" width="1200" height="600">
+      <rect width="1200" height="600" border=1 style="fill:none;stroke:black;stroke-width:1;"></rect>
+    </svg>
+  </div>
+  <br>
+
+  <details>
+  <summary>Expand User Guide</summary>
+  <br>
+
+  <span style="color:black; font-weight:bold; text-decoration:underline; font-size:16px;">User Guide</span>
+  <br><br>
+
+  <!-- bulk text -->
+  <div style="color:black; font-size:14px; width:50%; margin-left:25%; margin-right:25%;">
+  <span style="" class="question">How to search?</span><br>
+    <div class="answer">
+    Enter the search key word in search bar and click ‘Visualize!’ button.<br>
+    The real button is right above this guide.<br>
+    </div>
+  <br>
+    <span style="font-size: 14px;">Search</span>
+    <input style="width: 20%" type="text" value="TTC">
+    <input type="button" class="button" value="Visualize !" />
+  <br>
+  <br>
+  <span style="" class="question">How to view the search result?</span><br>
+    <div class="answer">
+    The space below the search bar will construct the results in a visual graph (or network) arrangement.
+    </div>
+  <br>
+  <br>  
+  <span style="" class="question">How are the datasets arranged in the visualization area?</span><br>
+    <div class="answer">
+    Datasets that are related to other datasets will be clustered closer to each other. Column names that are common between datasets will be connected to each other. Datasets without any relations will float freely.
+    </div>
+  <br>
+  <br>
+  <span style="" class="question">What do the different nodes represent?</span><br>
+    <div class="answer">
+    - Date or time columns are represented with calendar/clock icon.<br>
+    - Number is represented with number "12" within circle. It includes both integer and non integers.<br>
+    - Text is represented with alphabet letter "a".<br>
+    - Columns that are not related are only in grey. Columns that are related to more than one datasets have a sky blue ring in the icon.<br>
+    </div>
+  <br>
+  <span style="color:black; text-decoration:underline; font-size:14px;">Table 1. Node Types</span>
+  <table id="table1">
+    <tr>
+      <td></td>
+      <th>Datetime</th>
+      <th>Number</th>
+      <th>Text</th>
+    </tr>
+    <tr>
+      <th>Non-related columns</th>
+      <td><img src="images/0datetime.png" width="24" height="24"></td>
+      <td><img src="images/0number.png" width="24" height="24"></td>
+      <td><img src="images/0text.png" width="24" height="24"></td>
+    </tr>
+    <tr>
+      <th>Related columns</th>
+      <td><img src="images/1datetime.png" width="24" height="24"></td>
+      <td><img src="images/1number.png" width="24" height="24"></td>
+      <td><img src="images/1text.png" width="24" height="24"></td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <span style="" class="question">Can user arrange the datasets and its columns?</span><br>
+    <div class="answer">
+    Yes. The user can arrange the datasets and columns as per their need and convenience. In fact, we recommend you arrange the datasets into easily readable clusters. Single click and drag on any dataset to make the entire result visualization flexible and interactive.
+    </div>
+  <br>
+  <br>
+  <span style="" class="question">How to freeze the visualization?</span><br>
+    <div class="answer">
+    Once the user has arranged the dataset or column names, single mouse click on any dataset or column node to freeze the visualization.
+    </div>
+  <br>
+  <br>
+  <span style="" class="question">How to know additional information about dataset?</span><br>
+    <div class="answer">
+    - Move the mouse pointer over the dataset node. Small pop-up window will display the dataset size and total number of records in it.<br>
+    - Double click the dataset to open the open data source web page in separate tab.<br>
+    - Right click the dataset to read the dataset description.<br>
+    </div>
+  <br>
+  <br>
+  <span style="" class="question">How to know additional information about columns within dataset?</span><br>
+    <div class="answer">
+    Move the mouse pointer over the column node. Small pop-up window will display additional information depending on the column data type. Possible value ranges will be shown based on data attributes:<br>
+    - Nominal attributes - Mode. E.g. frequently occuring Route id.<br>
+    - Binary attributes - Binary values. E.g. wheel boarding or not.<br>
+    - Ordinal attributes - Range of values within dataset. E.g. ranking.<br>
+    - Numeric attributes - Average and range.<br>
+    </div>
+  </div>
+  <br>
+
+  </details>
+<!--   <span style="color:grey; font-style:italic; font-size:14px;">Click and drag nodes to anchor them. Other nodes rearrange automatically.</span><br>
+  <span style="color:grey; font-style:italic; font-size:14px;">As you move the nodes, click on any node again to freeze the layout.</span><br>
+  <span style="color:grey; font-size:14px;">The different nodes represent different information.</span>
+ -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- <div style="text-align:center;"> -->
+      <!-- <span style="">Legend:</span> -->
+      <!-- <span style="color:green; opacity: 0.5;"> ➜ Dataset, </span> -->
+      <!-- <span style="color:silver;"> - Column Name,</span> -->
+      <!-- <span style="color:blue; opacity: 0.5"> - Data Size,</span> -->
+      <!-- <span style="color:purple; opacity: 0.5;"> - Number of Records</span><br> -->
+    <!-- <span style="font-size: 14px;">Label Size</span> -->
+    <!-- <input type="text" id="labelSize" name="labelSize" value="9"> -->
+    <!-- <span style="font-size: 14px;">Node Size</span> -->
+    <!-- <input type="text" id="nodeSize" name="nodeSize" value="32"> -->
+    <!-- <button class="button" id="graphIt" onclick="draw2()">Apply Settings</button> -->
+    <!-- </form> -->
+  </div>
+  <br>
+<script type="text/javascript" src="js/graph.js"></script>
+</div>
+</body>
+</html>

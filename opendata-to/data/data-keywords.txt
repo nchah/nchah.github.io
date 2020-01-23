@@ -1,0 +1,66 @@
+ttc delay, ttc bus delay	ttc, ridership, ttc weekday ridership
+ttc delay, ttc bus delay	ttc, ttc rides, ttc ridership
+ttc delay, ttc bus delay	ttc, subway, scarborough rt, ttc station
+ttc delay, ttc bus delay	ttc, routes, schedules, agency
+ttc delay, ttc bus delay	ttc, routes, schedules, calendar
+ttc delay, ttc bus delay	ttc, routes, schedules, routes
+ttc delay, ttc bus delay	ttc, routes, schedules, shapes
+ttc delay, ttc bus delay	ttc, routes, schedules, stops
+ttc delay, ttc bus delay	ttc, routes, schedules, trips
+ttc delay, ttc bus delay	ttc, streetcar delay
+ttc delay, ttc bus delay	ttc, subway delay
+ttc, ridership, ttc weekday ridership	ttc, ttc rides, ttc ridership
+ttc, ridership, ttc weekday ridership	ttc, subway, scarborough rt, ttc station
+ttc, ridership, ttc weekday ridership	ttc, routes, schedules, agency
+ttc, ridership, ttc weekday ridership	ttc, routes, schedules, calendar
+ttc, ridership, ttc weekday ridership	ttc, routes, schedules, routes
+ttc, ridership, ttc weekday ridership	ttc, routes, schedules, shapes
+ttc, ridership, ttc weekday ridership	ttc, routes, schedules, stops
+ttc, ridership, ttc weekday ridership	ttc, routes, schedules, trips
+ttc, ridership, ttc weekday ridership	ttc, streetcar delay
+ttc, ridership, ttc weekday ridership	ttc, subway delay
+ttc, ttc rides, ttc ridership	ttc, subway, scarborough rt, ttc station
+ttc, ttc rides, ttc ridership	ttc, routes, schedules, agency
+ttc, ttc rides, ttc ridership	ttc, routes, schedules, calendar
+ttc, ttc rides, ttc ridership	ttc, routes, schedules, routes
+ttc, ttc rides, ttc ridership	ttc, routes, schedules, shapes
+ttc, ttc rides, ttc ridership	ttc, routes, schedules, stops
+ttc, ttc rides, ttc ridership	ttc, routes, schedules, trips
+ttc, ttc rides, ttc ridership	ttc, streetcar delay
+ttc, ttc rides, ttc ridership	ttc, subway delay
+ttc, subway, scarborough rt, ttc station	ttc, routes, schedules, agency
+ttc, subway, scarborough rt, ttc station	ttc, routes, schedules, calendar
+ttc, subway, scarborough rt, ttc station	ttc, routes, schedules, routes
+ttc, subway, scarborough rt, ttc station	ttc, routes, schedules, shapes
+ttc, subway, scarborough rt, ttc station	ttc, routes, schedules, stops
+ttc, subway, scarborough rt, ttc station	ttc, routes, schedules, trips
+ttc, subway, scarborough rt, ttc station	ttc, streetcar delay
+ttc, subway, scarborough rt, ttc station	ttc, subway delay
+ttc, routes, schedules, agency	ttc, routes, schedules, calendar
+ttc, routes, schedules, agency	ttc, routes, schedules, routes
+ttc, routes, schedules, agency	ttc, routes, schedules, shapes
+ttc, routes, schedules, agency	ttc, routes, schedules, stops
+ttc, routes, schedules, agency	ttc, routes, schedules, trips
+ttc, routes, schedules, agency	ttc, streetcar delay
+ttc, routes, schedules, agency	ttc, subway delay
+ttc, routes, schedules, calendar	ttc, routes, schedules, routes
+ttc, routes, schedules, calendar	ttc, routes, schedules, shapes
+ttc, routes, schedules, calendar	ttc, routes, schedules, stops
+ttc, routes, schedules, calendar	ttc, routes, schedules, trips
+ttc, routes, schedules, calendar	ttc, streetcar delay
+ttc, routes, schedules, calendar	ttc, subway delay
+ttc, routes, schedules, routes	ttc, routes, schedules, shapes
+ttc, routes, schedules, routes	ttc, routes, schedules, stops
+ttc, routes, schedules, routes	ttc, routes, schedules, trips
+ttc, routes, schedules, routes	ttc, streetcar delay
+ttc, routes, schedules, routes	ttc, subway delay
+ttc, routes, schedules, shapes	ttc, routes, schedules, stops
+ttc, routes, schedules, shapes	ttc, routes, schedules, trips
+ttc, routes, schedules, shapes	ttc, streetcar delay
+ttc, routes, schedules, shapes	ttc, subway delay
+ttc, routes, schedules, stops	ttc, routes, schedules, trips
+ttc, routes, schedules, stops	ttc, streetcar delay
+ttc, routes, schedules, stops	ttc, subway delay
+ttc, routes, schedules, trips	ttc, streetcar delay
+ttc, routes, schedules, trips	ttc, subway delay
+ttc, streetcar delay	ttc, subway delay

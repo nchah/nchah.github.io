@@ -1,0 +1,142 @@
+.link {
+  fill: none;
+  stroke: silver;
+  stroke-width: 1.5px;
+}
+
+.link.dataset {
+  stroke: green;
+  stroke-opacity: 0.5;
+}
+
+.link.column {
+  stroke: silver;
+  stroke-dasharray: 0,2 1;
+  /*stroke-dasharray: 5, 1;*/
+}
+
+.link.datasize {
+  stroke: blue;
+  stroke-opacity: 0.5;
+  /*stroke-dasharray: 0,2 1;*/
+}
+
+.link.numrecords {
+  stroke: purple;
+  stroke-opacity: 0.5;
+  /*stroke-dasharray: 0,2 1;*/
+}
+
+.question {
+  color: black;
+  font-weight: bold;
+  /*font-style: italic;*/
+  /*text-decoration: underline;*/
+  font-size: 14px;
+  text-align: center;
+}
+
+.answer {
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  /*width:50%;
+  margin-left:25%;
+  margin-right:25%;*/
+}
+
+#table1 {
+  /*border-collapse: collapse;*/
+  width: 100%;
+  /*margin-left:25%; */
+  /*margin-right:25%;*/
+}
+
+th, td {
+  font-weight: normal;
+  text-align: center;
+  width: 20%;
+  padding: 5px;
+  font-size: 12px;
+}
+
+/*tr:nth-child(even){background-color: #f2f2f2}*/
+td:hover {background-color: #f5f5f5;}
+/*tr:hover {background-color: skyblue;}*/
+
+th {
+  background-color: lightblue;
+  /*color: white;*/
+}
+
+#myBar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 25px;
+  background-color: skyblue;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 25px; /* To center it vertically */
+  color: black;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+.link-label {
+  fill: grey;
+  font-family: 'Roboto Mono', monospace;
+  /*font-size: 9px;  */
+  /*font-weight: bold;*/
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+text {
+  fill: black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 11px;
+  /*font-weight: bold;*/
+  pointer-events: none;
+  /*text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;*/
+}
+
+div {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.button {
+  font-family: 'Roboto Mono', monospace;
+  background-color: skyblue; 
+  border: none;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+textarea {
+  font-size: 14px;
+  width: 80%;
+  height: 15  0px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=text] {
+  font-size: 14px;
+  width: 10%;
+  padding: 5px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}

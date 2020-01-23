@@ -5,9 +5,6 @@
 # # theme: jekyll-theme-modernist
 remote-theme: rohanchandra/type-theme
 
-# gems:
-#   - jekyll-mentions
-
 
 # SITE CONFIGURATION
 baseurl:  # "/type-theme"
@@ -23,7 +20,7 @@ theme_settings:
   description: "" # used by search engines
 
   # Header and footer text
-  header_text: 
+  header_text: <p>In dev.</p>
   header_text_feature_image: assets/img/sample_feature_img_3.png
   footer_text: >
      <p>2020 niel chah – All rights reserved </p>

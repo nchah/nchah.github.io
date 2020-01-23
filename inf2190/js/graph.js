@@ -1,0 +1,238 @@
+var tues = [
+  {source: "", target: "L1-G1", img:"images/analytics.png"},
+  {source: "L1-G1", target: "Namir", type: "main"},
+  {source: "L1-G1", target: "Ali", type: "main"},
+  {source: "L1-G1", target: "Nasom", type: "main"},
+
+  {source: "", target: "L1-G2", img:"images/analytics.png"},
+  {source: "L1-G2", target: "Patrick", type: "main"},
+  {source: "L1-G2", target: "Ka", type: "main"},
+  {source: "L1-G2", target: "Hussein ", type: "main"},
+  {source: "L1-G2", target: "Omodolapo ", type: "main"},
+
+  {source: "", target: "L1-G3", img:"images/analytics.png"},
+  {source: "L1-G3", target: "Rifat ", type: "main"},
+  {source: "L1-G3", target: "Kendall ", type: "main"},
+  {source: "L1-G3", target: "Ricky ", type: "main"},
+  
+  {source: "", target: "L1-G4", img:"images/analytics.png"},
+  {source: "L1-G4", target: "Michelle ", type: "main"},
+  {source: "L1-G4", target: "Marian ", type: "main"},
+  {source: "L1-G4", target: "Achyuth ", type: "main"},
+  {source: "L1-G4", target: "Marian ", type: "main"},
+
+  {source: "", target: "L1-G5", img:"images/analytics.png"},
+  {source: "L1-G5", target: "Ye ", type: "main"},
+  {source: "L1-G5", target: "Yiyang ", type: "main"},
+  {source: "L1-G5", target: "Shafaq ", type: "main"},
+
+  {source: "", target: "L1-G6", img:"images/analytics.png"},
+  {source: "L1-G6", target: "Colleen ", type: "main"},
+  {source: "L1-G6", target: "Ziang ", type: "main"},
+  {source: "L1-G6", target: "Ning ", type: "main"},
+  {source: "L1-G6", target: "Haoyue ", type: "main"},
+
+  {source: "", target: "L1-G7", img:"images/analytics.png"},
+  {source: "L1-G7", target: "Ye-Eun ", type: "main"},
+  {source: "L1-G7", target: "Permjit ", type: "main"},
+  {source: "L1-G7", target: "Zhuoran ", type: "main"},
+  {source: "L1-G7", target: "Harrison ", type: "main"},
+
+  {source: "", target: "L1-G8", img:"images/analytics.png"},
+  {source: "L1-G8", target: "Sara ", type: "main"},
+  {source: "L1-G8", target: "Lin ", type: "main"},
+  {source: "L1-G8", target: "Zhixian ", type: "main"},
+  {source: "L1-G8", target: "Xuning ", type: "main"},
+];
+
+var thurs = [
+  {source: "", target: "L2-G1", img:"images/analytics.png"},
+  {source: "L2-G1", target: "Amy ", type: "main"},
+  {source: "L2-G1", target: "Amber ", type: "main"},
+  {source: "L2-G1", target: "Tendy ", type: "main"},
+  {source: "L1-G3", target: "Kairui ", type: "main"},
+
+  {source: "", target: "L2-G2", img:"images/analytics.png"},
+  {source: "L2-G2", target: "Thais ", type: "main"},
+  {source: "L2-G2", target: "Hiba ", type: "main"},
+  {source: "L2-G2", target: "Harsimran ", type: "main"},
+  {source: "L2-G2", target: "Riley ", type: "main"},
+
+  {source: "", target: "L2-G3 (eMHI)", img:"images/analytics.png"},
+  {source: "L2-G3 (eMHI)", target: "Marufa ", type: "main"},
+  {source: "L2-G3 (eMHI)", target: "Nathan ", type: "main"},
+  {source: "L2-G3 (eMHI)", target: "Tanya ", type: "main"},
+  {source: "L2-G3 (eMHI)", target: "Steven ", type: "main"},
+
+  {source: "", target: "L2-G4 (eMHI)", img:"images/analytics.png"},
+  {source: "L2-G4 (eMHI)", target: "Ashoke ", type: "main"},
+  {source: "L2-G4 (eMHI)", target: "Arsalan ", type: "main"},
+  {source: "L2-G4 (eMHI)", target: "Gursimran ", type: "main"},
+
+  {source: "", target: "L2-G5", img:"images/analytics.png"},
+  {source: "L2-G5", target: "Julia ", type: "main"},
+  {source: "L2-G5", target: "Nicole ", type: "main"},
+  {source: "L2-G5", target: "Anastasios ", type: "main"},
+  {source: "L2-G5", target: "Kaur ", type: "main"},
+
+  {source: "", target: "L2-G6", img:"images/analytics.png"},
+  {source: "L2-G6", target: "Aniket ", type: "main"},
+  {source: "L2-G6", target: "Rajin ", type: "main"},
+  {source: "L2-G6", target: "Giselle ", type: "main"},
+  {source: "L2-G6", target: "Sanoop ", type: "main"},
+
+  {source: "", target: "L2-G7", img:"images/analytics.png"},
+  {source: "L2-G7", target: "Rae ", type: "main"},
+  {source: "L2-G7", target: "Alina ", type: "main"},
+  {source: "L2-G7", target: "Abeera ", type: "main"},
+  {source: "L2-G7", target: "Abida ", type: "main"},
+
+  {source: "", target: "L2-G8", img:"images/analytics.png"},
+  {source: "L2-G8", target: "Akshay ", type: "main"},
+  {source: "L2-G8", target: "Pallav ", type: "main"},
+  {source: "L2-G8", target: "Paras ", type: "main"},
+
+  {source: "", target: "L2-G9", img:"images/analytics.png"},
+  {source: "L2-G9", target: "Naghmeh ", type: "main"},
+  {source: "L2-G9", target: "Karen ", type: "main"},
+  {source: "L2-G9", target: "Rajin ", type: "main"},
+
+  {source: "", target: "L2-G10", img:"images/analytics.png"},
+  {source: "L2-G10", target: "Amin ", type: "main"},
+  {source: "L2-G10", target: "Kavitha ", type: "main"},
+  {source: "L2-G10", target: "Vivekanandan ", type: "main"},
+  {source: "L2-G10", target: "Lauren ", type: "main"},
+
+  {source: "", target: "L2-G11", img:"images/analytics.png"},
+  {source: "L2-G11", target: "Xiwen ", type: "main"},
+  {source: "L2-G11", target: "Lee ", type: "main"},
+  {source: "L2-G11", target: "Fernanda ", type: "main"},
+];
+
+
+function a1() {
+  // Remove the existing svg elements
+  d3.selectAll("g > *").remove();
+
+  // Return the checked checkboxes
+  var checkedValues = [];
+  var checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked');
+  for (var i=0; checkedBoxes[i]; ++i) {
+      if (checkedBoxes[i].checked) {
+           checkedValues.push(checkedBoxes[i].value);
+      }
+  }
+  if (checkedValues) {
+    draw(checkedValues);
+  }
+};
+
+
+function draw(checks) {
+  var checkedValues = checks;
+  var links = [];
+  // Tried .concat(); and Array.prototype.push.apply(); 
+  // but deep copies of the arrays needed after a d3js .remove() call
+  if (checkedValues.includes('tues')) {
+    var links = links.concat(JSON.parse(JSON.stringify(tues)));
+  }
+  if (checkedValues.includes('thurs')) {
+    var links = links.concat(JSON.parse(JSON.stringify(thurs)));
+  }
+  var nodes = {};
+  // Compute the distinct nodes from the links.
+  links.forEach(function(link) {
+    link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+    link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, img: link.img});
+  });
+  // delete empty node
+  delete nodes[""]
+  // workaround to let subclusters be unlinked
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].source.name == "") {
+      links.splice(i, 1);
+    }
+  }
+  // Define graph parameters
+  var width = 1000,
+      height = 600;
+  var force = d3.layout.force()
+      .nodes(d3.values(nodes))
+      .links(links)
+      .size([width, height])
+      .linkDistance(70)
+      .charge(-250)
+      .on("tick", tick)
+      .start();
+  var svg = d3.select("#visualization")
+      .attr("width", width)
+      .attr("height", height);
+  // // Add a border around the visualization box
+  // var borderPath = svg.append("rect")
+  //         .attr("x", 0)
+  //         .attr("y", 0)
+  //         .attr("height", height)
+  //         .attr("width", width)
+  //         .style("stroke", "blue")
+  //         .style("fill", "none")
+  //         .style("stroke-width", 1);
+  // Per-type markers, as they don't inherit styles.
+  svg.append("defs").selectAll("marker")
+      .data(["transition", "acquisition"])
+    .enter().append("marker")  // the arrowhead
+      .attr("id", function(d) { return d; })
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 15)
+      .attr("refY", -1.5)
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .attr("orient", "auto")
+    .append("path")
+      .attr("d", "M0,-5L10,0L0,5");
+  var path = svg.append("g").selectAll("path")
+      .data(force.links())
+    .enter().append("path")
+      .attr("class", function(d) { return "link " + d.type; })
+      .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
+  var circle = svg.append("g").selectAll("circle")
+      .data(force.nodes())
+      .enter().append("image")
+      .attr("xlink:href", function(d) { 
+        if (d.img) {
+          return d.img;
+        } else { 
+          return "images/circle.png"
+        }})
+      .attr("x", -16)
+      .attr("y", -16)
+      .attr("width", 32)
+      .attr("height", 32)
+      .call(force.drag);
+  var text = svg.append("g").selectAll("text")
+      .data(force.nodes())
+    .enter().append("text")
+      .attr("x", -20)
+      .attr("y", -16) //".31em")
+      .text(function(d) { return d.name; });
+
+  // Use elliptical arc path segments to doubly-encode directionality.
+  function tick() {
+    path.attr("d", linkArc);
+    circle.attr("transform", transform);
+    text.attr("transform", transform);  // The text labels for each node
+  };
+  function linkArc(d) {
+    var dx = d.target.x - d.source.x,
+        dy = d.target.y - d.source.y,
+        // The original code for the elliptical arcs - maybe re-use one day
+        // dr = Math.sqrt(dx * dx + dy * dy);
+        dr = 0;
+    return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+  };
+  function transform(d) {
+    return "translate(" + d.x + "," + d.y + ")";
+  };
+};
+
+// At first display all clusters
+draw(['tues', 'thurs']);
