@@ -1,10 +1,9 @@
-title: nchah.github.io
+# title: nchah.github.io
 # description: 
 # google_analytics: 
 # show_downloads: true
 # # theme: jekyll-theme-modernist
 remote-theme: rohanchandra/type-theme
-
 
 # gems:
 #   - jekyll-mentions
