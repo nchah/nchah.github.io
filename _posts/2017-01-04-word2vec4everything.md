@@ -1,19 +1,7 @@
 ---
-id: 464
 title: 'word2vec4everything &#8211; Applying word2vec to Almost Anything'
 date: 2017-01-04T13:18:04-04:00
-author: nc
 layout: post
-guid: https://nielchah.com/?p=464
-permalink: /blog/word2vec4everything/
-tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";i:470;s:11:"_thumb_type";s:10:"attachment";}'
-layout_key:
-  - ""
-post_slider_check_key:
-  - "0"
-categories:
-  - machine learning
 ---
 **GitHub: <span style="color: #0000ff;"><a style="color: #0000ff;" href="https://github.com/nchah/word2vec4everything" target="_blank" rel="noopener noreferrer">nchah/word2vec4everything</a></span>**
 
