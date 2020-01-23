@@ -1,12 +1,8 @@
 ---
+title: Bio
+date: 2016-04-10T04:40:46-04:00
 layout: page
-title: About
-permalink: /about/
-feature-img: "assets/img/sample_feature_img_2.png"
 ---
+(Updating)
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
-
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+**<span style="color: #0000ff;"><a style="color: #0000ff;" href="https://github.com/nchah" target="_blank" rel="noopener noreferrer">GitHub</a> &#8211; </span>**My GitHub profile contains some of the publicly available code that I&#8217;ve written for open source projects, school, and work.
