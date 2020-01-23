@@ -1,8 +1,8 @@
 ---
 title: Main
-layout: page
+layout: home
 ---
 
-# In progress
+### In progress
 
 

@@ -11,16 +11,16 @@ remote-theme: rohanchandra/type-theme
 
 
 # SITE CONFIGURATION
-# baseurl: "/type-theme"
-# url: "https://rohanchandra.github.io/"
+baseurl:  # "/type-theme"
+url: "https://nchah.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: nchah.github.io (in dev.)
-  avatar: assets/img/avatar.png
+  avatar: # assets/img/avatar.png
   favicon: assets/favicon.ico
-  # gravatar: # Email MD5 hash
+  gravatar: # Email MD5 hash
   description: "" # used by search engines
 
   # Header and footer text
