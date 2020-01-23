@@ -9,6 +9,7 @@ remote-theme: rohanchandra/type-theme
 # gems:
 #   - jekyll-mentions
 
+
 # SITE CONFIGURATION
 # baseurl: "/type-theme"
 # url: "https://rohanchandra.github.io/"
@@ -16,8 +17,8 @@ remote-theme: rohanchandra/type-theme
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  # title: Type Theme
-  # avatar: assets/img/avatar.png
+  title: nchah.github.io (in dev.)
+  avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   # gravatar: # Email MD5 hash
   description: "" # used by search engines
@@ -26,7 +27,7 @@ theme_settings:
   header_text: >
      <p>Test text</p>
   # <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  #header_text_feature_image:
+  header_text_feature_image: assets/img/sample_feature_img_3.png
   # footer_text: >
    # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
