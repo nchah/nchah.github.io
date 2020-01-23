@@ -17,16 +17,16 @@ remote-theme: rohanchandra/type-theme
 theme_settings:
   # Meta
   # title: Type Theme
-  avatar: assets/img/avatar.png
+  # avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
-  gravatar: # Email MD5 hash
+  # gravatar: # Email MD5 hash
   description: "" # used by search engines
 
   # Header and footer text
   # header_text: >
      # <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
      # <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+  #header_text_feature_image:
   # footer_text: >
    # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
@@ -79,18 +79,18 @@ theme_settings:
   # Post navigation
   post_navigation: false
 
-# PAGINATION
-# paginate: 5
-# paginate_path: "blog/page:num"
+PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
 
-# BUILD SETTINGS
-# markdown: kramdown
-# highlighter: rouge
-# sass:
-#   sass_dir: _sass
-#   style: :compressed
-# plugins: [jekyll-paginate]
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate]
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
