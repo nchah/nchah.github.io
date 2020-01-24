@@ -22,7 +22,7 @@ permalink: /research/
       <a href="#Invited_Talks">Invited Talks</a>
     </li>
     <li>
-      <a href="#Hackathons_and_Conferences">Hackathons and Conferences</a>
+      <a href="#Hackathons">Hackathons</a>
     </li>
   </ul>
 </div>
@@ -132,15 +132,13 @@ permalink: /research/
 **Visiting Delegation from KOFAC, South Korea.** Oct. 2017  
 &#8211; Presented on _Canada’s Contributions to Deep Learning and Artificial Intelligence_.
 
-### <span id="Hackathons_and_Conferences">Hackathons and Conferences</span>
+**Canada Now: 2017 iSchool Student Conference (University of Toronto)** March 2017
+
+### <span id="Hackathons">Hackathons</span>
 
 <a href="https://www.migrahackto.com/" target="_blank" rel="noopener noreferrer"><strong>MigrahackTO</strong></a>  
 _ **November 2017, Mozilla Toronto**_  
 &#8211; Mentored for a hackathon on immigration and migration data issues with representatives from government agencies, NGOs, and universities. Led a workshop on _Mapping Data Boot Camp_.
-
-<a href="https://github.com/nchah/deep-learning-from-canada" target="_blank" rel="noopener noreferrer"><strong>Canada Now: 2017 iSchool Student Conference</strong></a>  
-**_March 2017, University of Toronto  
-&#8211;_** This workshop will provide an overview of the history and development of the deep learning field, with an emphasis on how Canadian researchers’ contributions have shaped the field. The workshop component will feature a demonstration of deep learning techniques using the TensorFlow library.
 
 <a href="https://www.loc.gov/loc/kluge/news/save-web-2016.html" target="_blank" rel="noopener noreferrer"><strong>Saving the Web Symposium</strong></a>  
 **_June 2016, Library of Congress, Washington, D.C.  
