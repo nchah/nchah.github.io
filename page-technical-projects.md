@@ -101,7 +101,7 @@ Projects involving **software packages, data visualization, Google Chrome exten
 
 ### <span id="PackagesLibraries"><strong>Packages/Libraries</strong></span>
 
-#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></span>
+#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
 
 Python library to get statistics on web traffic to your GitHub repositories on <a href="https://pypi.python.org/pypi/github-traffic-stats/" target="_blank" rel="noopener">PyPI</a>.
 
@@ -140,7 +140,7 @@ A lightweight dark theme inspired by charcoal.
 
 A unicorn inspired theme, featuring a range of light purple and light blue.
 
-&nbsp;
+<br>
 
 ### <span id="Machine_Learning"><strong>Machine Learning<br /> </strong></span>
 
@@ -156,23 +156,23 @@ Processing some interesting text documents through the word2vec machine learning
 
 This implementation was part of a final project for a graduate course in Data Analytics at the University of Toronto (Winter term, 2016).
 
-&nbsp;
+<br>
 
 ### <span id="Semantic_Web"><strong>Semantic Web</strong></span>
 
-#### <span id="freebase-triples">freebase-triples<strong><a href="https://github.com/nchah/freebase-triples" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></strong></span> {.f4}
+#### <span id="freebase-triples">freebase-triples<strong><a href="https://github.com/nchah/freebase-triples" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></strong></span>
 
 A methodology to process triples data from the Freebase data dumps.
 
-#### <span id="knowledge-graph-api">knowledge-graph-api<strong><a href="https://github.com/nchah/knowledge-graph-api" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></strong></span> {.f4}
+#### <span id="knowledge-graph-api">knowledge-graph-api<strong><a href="https://github.com/nchah/knowledge-graph-api" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></strong></span>
 
-Simple script to query Google&#8217;s Knowledge Graph API.
+Simple script to query Google's Knowledge Graph API.
 
-#### <span id="freebase-mql">freebase-mql<a href="https://github.com/nchah/freebase-mql" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a><strong><br /> </strong></span> {.f4}
+#### <span id="freebase-mql">freebase-mql<a href="https://github.com/nchah/freebase-mql" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a><strong><br /> </strong></span>
 
 A review of the deprecated Freebase knowledge base and Metaweb Query Language (MQL). A brief comparison of MQL and GraphQL.
 
-&nbsp;
+<br>
 
 ### <span id="Web_Archives"><strong>Web Archives</strong></span>
 
