@@ -69,13 +69,13 @@ layout: page
       <p>
         [Workshop] Chah, N. “i18n-CKG: Internationalization Contextualized Knowledge Graphs.” presented at Lyons, K., Stroulia, E., and Mindel, M. (Oct. 2018). “Third Annual Workshop on Data-Driven Knowledge Mobilization.” IBM Centre for Advanced Studies Conference (CASCON) 2018.
       </p>
-    </div>
+<!--     </div>
   </div>
 </div>
 
 <div class="page" title="Page 2">
   <div class="layoutArea">
-    <div class="column">
+    <div class="column"> -->
       <p>
         [Paper] Kim, N., Caidi, N., and Chah, N. (Oct. 2018). “Our Korea: Transcultural Affinities as Negotiated Through YouTube.” Information Seeking in Context (ISIC) 2018.
       </p>
@@ -95,23 +95,23 @@ layout: page
       <p>
         [Poster] Ferrario, M.A., Andritsos, P., Chah, N., and Bittencourt, T. (May 2018). “Before and After the Financial Crash: The Corporate Network Evolution and Sustainability Implications.” International Conference on ICT for Sustainability (ICT4S) 2018.
       </p>
-    </div>
+<!--     </div>
   </div>
 </div>
 
 <div class="page" title="Page 2">
   <div class="layoutArea">
-    <div class="column">
+    <div class="column"> -->
       <p>
         [Poster] Chah, N., and Andritsos, P. (Nov. 2017). “Profiling Billions of Triples: The Case of Freebase Data Dumps.” IBM Center for Advanced Studies Conference (CASCON) 2017.
       </p>
-    </div>
+<!--     </div>
   </div>
 </div>
 
 <div class="page" title="Page 2">
   <div class="layoutArea">
-    <div class="column">
+    <div class="column"> -->
       <p>
         [Poster] Kim N., Caidi N. and Chah N. (July 2017). “Designing for Diversity: Intercultural Engagement Through YouTube.” International Conference on Social Media & Society (SM&S) 2017.
       </p>
