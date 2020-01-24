@@ -101,7 +101,7 @@ Projects involving **software packages, data visualization, Google Chrome exten
 
 ### <span id="PackagesLibraries"><strong>Packages/Libraries</strong></span>
 
-#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
+#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a></span>
 
 Python library to get statistics on web traffic to your GitHub repositories on <a href="https://pypi.python.org/pypi/github-traffic-stats/" target="_blank" rel="noopener">PyPI</a>.
 
@@ -117,26 +117,26 @@ An interactive force-directed graph of notable tech companies, their products, a
 
 ### <span id="ChromeExtensions_Firefox_Add-ons"><strong>Chrome Extensions & Firefox Add-ons<br /> </strong></span>
 
-#### <span id="NewTab_Memo"><img class="alignnone size-full wp-image-54" src="/assets/images/icon-48.png" alt="icon-48" width="48" height="48" />NewTab Memo<a href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-memo/" target="_blank" rel="noopener"><img class="alignright wp-image-669 size-full" src="/assets/images/AMO-button_1.png" alt="" width="172" height="60" align="right" /></a><a href="https://chrome.google.com/webstore/detail/newtab-memo/gmahiocgkhbehfpmdndjpppdehlccaoh" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-52 alignright" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="206" height="58" align="right" /></a></span>
+#### <span id="NewTab_Memo"><img class="alignnone size-full wp-image-54" src="/assets/images/icon-48.png" alt="icon-48" width="48" height="48" />NewTab Memo<a href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-memo/" target="_blank" rel="noopener"><img class="alignright wp-image-669 size-full" src="/assets/images/AMO-button_1.png" alt="" width="115" height="40" align="right" /></a><a href="https://chrome.google.com/webstore/detail/newtab-memo/gmahiocgkhbehfpmdndjpppdehlccaoh" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-52 alignright" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="140" height="40" align="right" /></a></span>
 
 Transforms Chrome new tabs into memo pads. Type, edit, and save text.
 
-#### <span id="DarkEdit_New_Tab"><img class="alignnone size-full wp-image-55" src="/assets/images/icon.png" alt="icon" width="48" height="48" />DarkEdit New Tab<strong><a href="https://chrome.google.com/webstore/detail/darkedit-new-tab/lcjehgmglbjnagbdcbobefdbpeippiig" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-52 size-full" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="206" height="58" align="right" /></a></strong></span>
+#### <span id="DarkEdit_New_Tab"><img class="alignnone size-full wp-image-55" src="/assets/images/icon.png" alt="icon" width="48" height="48" />DarkEdit New Tab<strong><a href="https://chrome.google.com/webstore/detail/darkedit-new-tab/lcjehgmglbjnagbdcbobefdbpeippiig" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-52 size-full" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="140" height="40" align="right" /></a></strong></span>
 
 A lightweight Chrome New Tab extension in a dark theme, with an editable text area.
 
-#### <span id="URL_Alert"> <img class="alignnone size-medium wp-image-576" src="/assets/images/logo-48.png" alt="" width="48" height="48" /> URL Alert<a href="https://chrome.google.com/webstore/detail/pflncfgmhaeckfmdgogffkbjkkogjgkh" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-52 alignright" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="" width="206" height="58" align="right" /></a></span>
+#### <span id="URL_Alert"> <img class="alignnone size-medium wp-image-576" src="/assets/images/logo-48.png" alt="" width="48" height="48" /> URL Alert<a href="https://chrome.google.com/webstore/detail/pflncfgmhaeckfmdgogffkbjkkogjgkh" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-52 alignright" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="" width="140" height="40" align="right" /></a></span>
 
 URL Alert is a Chrome extension to parse URLs for internationalized domain names and warn against URL phishing attacks.
 
 
 ### <span id="Google_Chrome_Themes"><strong>Google Chrome Themes</strong></span>
 
-#### <span id="Dark_Theme_8211_Charcoal"><img class="alignnone size-full wp-image-57" src="/assets/images/crx-images-logo.png" alt="crx-images-logo" width="48" height="48" /> Dark Theme &#8211; Charcoal<strong><a href="https://chrome.google.com/webstore/detail/dark-theme-charcoal/bookmfpildhgmigenbeeonhljjbgfple" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-52 alignright" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="206" height="58" align="right" /></a></strong></span>
+#### <span id="Dark_Theme_8211_Charcoal"><img class="alignnone size-full wp-image-57" src="/assets/images/crx-images-logo.png" alt="crx-images-logo" width="48" height="48" /> Dark Theme &#8211; Charcoal<strong><a href="https://chrome.google.com/webstore/detail/dark-theme-charcoal/bookmfpildhgmigenbeeonhljjbgfple" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-52 alignright" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="140" height="40" align="right" /></a></strong></span>
 
 A lightweight dark theme inspired by charcoal.
 
-#### <span id="Unicorn_Theme"><img class="alignnone wp-image-58" src="/assets/images/unicorn-theme-logo.png" alt="unicorn-theme-logo" width="48" height="48" />Unicorn Theme<strong><a href="https://chrome.google.com/webstore/detail/unicorn-theme/cmocghjdibclgmdlkmmdpinlmfandkfh" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-52 size-full" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="206" height="58" align="right" /></a></strong></span>
+#### <span id="Unicorn_Theme"><img class="alignnone wp-image-58" src="/assets/images/unicorn-theme-logo.png" alt="unicorn-theme-logo" width="48" height="48" />Unicorn Theme<strong><a href="https://chrome.google.com/webstore/detail/unicorn-theme/cmocghjdibclgmdlkmmdpinlmfandkfh" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-52 size-full" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="140" height="40" align="right" /></a></strong></span>
 
 A unicorn inspired theme, featuring a range of light purple and light blue.
 
