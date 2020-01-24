@@ -1,16 +1,7 @@
 ---
-id: 68
 title: Research
 date: 2016-09-02T13:19:44-04:00
-author: admin
 layout: page
-guid: https://nielchah.com/?page_id=68
-tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
-layout_key:
-  - l
-post_slider_check_key:
-  - "0"
 ---
 <div id="toc_container" class="toc_white no_bullets">
   <p class="toc_title">

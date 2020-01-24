@@ -1,17 +1,8 @@
 ---
-id: 501
-title: 'Who&#8217;s Reading My Code?: Checking GitHub Traffic Stats'
+title: "Who's Reading My Code?: Checking GitHub Traffic Stats"
 date: 2017-04-04T17:46:06-04:00
-author: nc
 layout: post
-guid: https://nielchah.com/?p=501
-permalink: /blog/whos-reading-my-code-checking-github-traffic-stats/
-tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";i:505;s:11:"_thumb_type";s:10:"attachment";}'
-layout_key:
-  - ""
-post_slider_check_key:
-  - "0"
+permalink: /github-traffic-stats/
 categories:
   - API
   - command line

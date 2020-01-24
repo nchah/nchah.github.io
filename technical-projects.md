@@ -1,16 +1,7 @@
 ---
-id: 31
 title: Tech Projects
 date: 2016-04-21T04:07:32-04:00
-author: admin
 layout: page
-guid: http://nielchah.com/?page_id=31
-tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";i:669;s:11:"_thumb_type";s:10:"attachment";}'
-layout_key:
-  - l
-post_slider_check_key:
-  - "0"
 ---
 <div id="toc_container" class="toc_white no_bullets">
   <p class="toc_title">

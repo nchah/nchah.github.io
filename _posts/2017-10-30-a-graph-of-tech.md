@@ -1,17 +1,8 @@
 ---
-id: 635
 title: A Graph of Tech
 date: 2017-10-30T11:05:16-04:00
-author: nc
 layout: post
-guid: https://nielchah.com/?p=635
-permalink: /blog/a-graph-of-tech/
-tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";i:637;s:11:"_thumb_type";s:10:"attachment";}'
-layout_key:
-  - ""
-post_slider_check_key:
-  - "0"
+permalink: /graph-of-tech/
 categories:
   - data visualization
   - javascript
