@@ -101,7 +101,7 @@ Projects involving **software packages, data visualization, Google Chrome exten
 
 ### <span id="PackagesLibraries"><strong>Packages/Libraries</strong></span>
 
-#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
+#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer" align="right"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
 
 Python library to get statistics on web traffic to your GitHub repositories on <a href="https://pypi.python.org/pypi/github-traffic-stats/" target="_blank" rel="noopener">PyPI</a>.
 
