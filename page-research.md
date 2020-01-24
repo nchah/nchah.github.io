@@ -136,23 +136,29 @@ permalink: /research/
 
 ### <span id="Hackathons">Hackathons</span>
 
-<a href="https://www.migrahackto.com/" target="_blank" rel="noopener noreferrer"><strong>MigrahackTO</strong></a>  
-_ **November 2017, Mozilla Toronto**_  
-&#8211; Mentored for a hackathon on immigration and migration data issues with representatives from government agencies, NGOs, and universities. Led a workshop on _Mapping Data Boot Camp_.
-
-<a href="https://www.loc.gov/loc/kluge/news/save-web-2016.html" target="_blank" rel="noopener noreferrer"><strong>Saving the Web Symposium</strong></a>  
-**_June 2016, Library of Congress, Washington, D.C.  
-&#8211;_** Presented my team&#8217;s work with web archives, named entity recognition, and visualization for the Archives Unleashed 2.0 Datathon.
-
 <div class="page" title="Page 2">
   <div class="layoutArea">
     <div class="column">
       <p>
-        <a href="http://archivesunleashed.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Archives Unleashed 2.0 Datathon</strong></span></a><br /> <em><strong> June 2016, Washington D.C.</strong></em><br /> &#8211; Applied Named Entity Recognition and text analysis at a hackathon organized by the University of Waterloo, the Internet Archive, and others.
+        <a href="https://www.migrahackto.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>MigrahackTO</strong></span></a><br />
+        <em><strong>November 2017, Mozilla Toronto</strong></em><br />
+        &#8211; Mentored for a hackathon on immigration and migration data issues with representatives from government agencies, NGOs, and universities. Led a workshop on _Mapping Data Boot Camp_.
+      </p>
+
+      <p>
+        <a href="https://www.loc.gov/loc/kluge/news/save-web-2016.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Saving the Web Symposium</strong></span></a><br />
+        <em><strong>June 2016, Library of Congress, Washington, D.C.</strong></em><br />
+        &#8211; Presented my team&#8217;s work with web archives, named entity recognition, and visualization for the Archives Unleashed 2.0 Datathon.
+      </p>
+
+      <p>
+        <a href="http://archivesunleashed.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Archives Unleashed 2.0 Datathon</strong></span></a><br /> <em><strong> June 2016, Washington D.C.</strong></em><br />
+        &#8211; Applied Named Entity Recognition and text analysis at a hackathon organized by the University of Waterloo, the Internet Archive, and others.
       </p>
       
       <p>
-        <a href="http://archivesunleashed.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Archives Unleashed Hackathon</strong></span></a><br /> <em><strong> March 2016, Toronto</strong></em><br /> &#8211; Applied computer vision and text analysis at a hackathon organized by the University of Waterloo, the Internet Archive, and the University of Toronto.
+        <a href="http://archivesunleashed.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Archives Unleashed Hackathon</strong></span></a><br /> <em><strong> March 2016, Toronto</strong></em><br />
+        &#8211; Applied computer vision and text analysis at a hackathon organized by the University of Waterloo, the Internet Archive, and the University of Toronto.
       </p>
     </div>
   </div>
