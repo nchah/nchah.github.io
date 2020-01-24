@@ -36,7 +36,7 @@ permalink: /research/
   <div class="layoutArea">
     <div class="column">
       <p>
-        Chah, N. (May 2019). "Towards A Graph of (American) Tech Companies: A Prototype Visualization Tool for Research on Technology and Users." Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems.
+        Chah, N. (May 2019). "Towards A Graph of (American) Tech Companies: A Prototype Visualization Tool for Research on Technology and Users." Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. <a href="https://dl.acm.org/doi/abs/10.1145/3290607.3313058" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/abs/10.1145/3290607.3313058</a>
       </p>
       
       <p>
