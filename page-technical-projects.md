@@ -101,7 +101,7 @@ Projects involving **software packages, data visualization, Google Chrome exten
 
 ### <span id="PackagesLibraries"><strong>Packages/Libraries</strong></span>
 
-#### <span id="github-traffic-stats" align="right">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></span>
+#### <span id="github-traffic-stats" align="right">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer" align="right"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></span>
 
 Python library to get statistics on web traffic to your GitHub repositories on <a href="https://pypi.python.org/pypi/github-traffic-stats/" target="_blank" rel="noopener">PyPI</a>.
 
@@ -109,7 +109,7 @@ Python library to get statistics on web traffic to your GitHub repositories on <
 
 ### <span id="Data_Visualization"><strong>Data Visualization</strong></span>
 
-#### <span id="A_Graph_of_Tech"  align="right">A Graph of Tech<a href="https://github.com/nchah/tech-graph" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></span>
+#### <span id="A_Graph_of_Tech">A Graph of Tech<a href="https://github.com/nchah/tech-graph" target="_blank" rel="noopener noreferrer" align="right"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></span>
 
 An interactive force-directed graph of notable tech companies, their products, and services using D3.js. Move the clusters around and rearrange their links and relationships.
 
