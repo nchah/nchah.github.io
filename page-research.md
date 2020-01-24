@@ -1,6 +1,5 @@
 ---
 title: Research
-date: 2016-09-02T13:19:44-04:00
 layout: page
 permalink: /research/
 ---
@@ -27,6 +26,9 @@ permalink: /research/
     </li>
   </ul>
 </div>
+
+<br>
+<br>
 
 <a style="vertical-align: top;" href="https://orcid.org/0000-0002-3377-7823" target="orcid.widget" rel="noopener noreferrer"><img style="width: 1em; margin-right: .5em;" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon" />orcid.org/0000-0002-3377-7823</a>
 

@@ -1,6 +1,5 @@
 ---
 title: Tech Projects
-date: 2016-04-21T04:07:32-04:00
 layout: page
 permalink: /technical-projects/
 ---
@@ -94,6 +93,9 @@ permalink: /technical-projects/
     </li>
   </ul>
 </div>
+
+<br>
+<br>
 
 Projects involving **software packages, data visualization, Google Chrome extensions and Firefox Add-ons, machine learning,**  **Semantic Web,** and **web archives.**
 
