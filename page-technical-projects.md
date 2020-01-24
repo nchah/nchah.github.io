@@ -109,7 +109,7 @@ Python library to get statistics on web traffic to your GitHub repositories on <
 
 ### <span id="Data_Visualization"><strong>Data Visualization</strong></span>
 
-#### <span id="A_Graph_of_Tech">A Graph of Tech<a href="https://github.com/nchah/tech-graph" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" /></a></span>
+#### <span id="A_Graph_of_Tech">A Graph of Tech<a href="https://github.com/nchah/tech-graph" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
 
 An interactive force-directed graph of notable tech companies, their products, and services using D3.js. Move the clusters around and rearrange their links and relationships.
 
