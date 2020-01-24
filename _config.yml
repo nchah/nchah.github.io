@@ -13,7 +13,7 @@ url: "https://nchah.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: nchah.github.io (in dev.)
+  title: nchah.github.io
   avatar: # assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
