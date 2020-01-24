@@ -64,7 +64,7 @@ permalink: /research/
   <div class="layoutArea">
     <div class="column">
       <p>
-        [Workshop] Chah, N. "i18n-CKG: Internationalization Contextualized Knowledge Graphs." presented at Noei, E., Lyons, K., Stroulia, E., & Andritsos, P. (Nov. 2019). "Fourth Annual Workshop on Data-Driven Knowledge Mobilization." IBM Centre for Advanced Studies Conference (CASCON) 2019.
+        [Workshop] Chah, N. "i18n-CKG: Internationalization Contextualized Knowledge Graphs." presented at Noei, E., Lyons, K., Stroulia, E., and Andritsos, P. (Nov. 2019). "Fourth Annual Workshop on Data-Driven Knowledge Mobilization." IBM Centre for Advanced Studies Conference (CASCON) 2019.
       </p>
 
       <p>
