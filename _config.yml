@@ -2,7 +2,7 @@
 # description: 
 # google_analytics: 
 # show_downloads: true
-# # theme: jekyll-theme-modernist
+# theme: jekyll-theme-modernist
 remote-theme: rohanchandra/type-theme
 
 
@@ -21,7 +21,7 @@ theme_settings:
 
   # Header and footer text
   header_text: <p>In dev.</p>
-  header_text_feature_image: assets/img/sample_feature_img_3.png
+  header_text_feature_image: assets/imgages/tech-graph.png # assets/img/sample_feature_img_3.png
   footer_text: >
      <p>2020 niel chah – All rights reserved </p>
 
