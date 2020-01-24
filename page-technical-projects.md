@@ -35,7 +35,7 @@ permalink: /technical-projects/
           <a href="#DarkEdit_New_Tab">DarkEdit New Tab</a>
         </li>
         <li>
-          <a href="#URL_Alert">  URL Alert</a>
+          <a href="#URL_Alert">URL Alert</a>
         </li>
       </ul>
     </li>
