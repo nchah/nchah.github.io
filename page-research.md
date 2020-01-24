@@ -60,6 +60,8 @@ permalink: /research/
   </div>
 </div>
 
+<br>
+
 ### <span id="Conferences">Conferences</span>
 
 <div class="page" title="Page 1">
@@ -116,10 +118,14 @@ permalink: /research/
   </div>
 </div>
 
+<br>
+
 ### <span id="Open-source_Code">Open-source Code</span>
 
 **[Code]** **Niel Chah** and Anthony Bloomer. 2018. github-traffic-stats. _Python Package Index (PyPI)._ <a href="https://pypi.org/project/github-traffic-stats/" target="_blank" rel="noopener noreferrer">pypi.org/project/github-traffic-stats/</a>.  
 &#8211; Released an open-source Python library to obtain GitHub traffic and download statistics. As of April 2018, the GitHub repository has 19 ★ stars and 10 ⑂ forks.
+
+<br>
 
 ### <span id="Invited_Talks">Invited Talks</span>
 
@@ -132,7 +138,9 @@ permalink: /research/
 **Visiting Delegation from KOFAC, South Korea.** Oct. 2017  
 &#8211; Presented on _Canada’s Contributions to Deep Learning and Artificial Intelligence_.
 
-**Canada Now: 2017 iSchool Student Conference (University of Toronto)** March 2017
+**Canada Now: 2017 iSchool Student Conference (University of Toronto).** March 2017
+
+<br>
 
 ### <span id="Hackathons">Hackathons</span>
 
@@ -142,7 +150,7 @@ permalink: /research/
       <p>
         <a href="https://www.migrahackto.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>MigrahackTO</strong></span></a><br />
         <em><strong>November 2017, Mozilla Toronto</strong></em><br />
-        &#8211; Mentored for a hackathon on immigration and migration data issues with representatives from government agencies, NGOs, and universities. Led a workshop on _Mapping Data Boot Camp_.
+        &#8211; Mentored for a hackathon on immigration and migration data issues with representatives from government agencies, NGOs, and universities. Led a workshop on Mapping Data Boot Camp.
       </p>
 
       <p>
