@@ -2,6 +2,7 @@
 title: Bio
 date: 2016-04-10T04:40:46-04:00
 layout: page
+permalink: /bio/
 ---
 (Updating)
 

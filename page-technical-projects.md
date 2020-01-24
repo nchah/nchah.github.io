@@ -2,6 +2,7 @@
 title: Tech Projects
 date: 2016-04-21T04:07:32-04:00
 layout: page
+permalink: /technical-projects/
 ---
 <div id="toc_container" class="toc_white no_bullets">
   <p class="toc_title">
