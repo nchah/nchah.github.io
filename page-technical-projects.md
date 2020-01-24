@@ -101,7 +101,7 @@ Projects involving **software packages, data visualization, Google Chrome exten
 
 ### <span id="PackagesLibraries"><strong>Packages/Libraries</strong></span>
 
-#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
+#### <span id="github-traffic-stats">github-traffic-stats<a href="https://github.com/nchah/github-traffic-stats" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a></span>
 
 Python library to get statistics on web traffic to your GitHub repositories on <a href="https://pypi.python.org/pypi/github-traffic-stats/" target="_blank" rel="noopener">PyPI</a>.
 
@@ -109,7 +109,7 @@ Python library to get statistics on web traffic to your GitHub repositories on <
 
 ### <span id="Data_Visualization"><strong>Data Visualization</strong></span>
 
-#### <span id="A_Graph_of_Tech">A Graph of Tech<a href="https://github.com/nchah/tech-graph" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
+#### <span id="A_Graph_of_Tech">A Graph of Tech<a href="https://github.com/nchah/tech-graph" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a></span>
 
 An interactive force-directed graph of notable tech companies, their products, and services using D3.js. Move the clusters around and rearrange their links and relationships.
 
@@ -146,13 +146,13 @@ A unicorn inspired theme, featuring a range of light purple and light blue.
 
 #### <span id="Natural_Language_Processing"><strong>Natural Language Processing</strong></span>
 
-#### <span id="word2vec4everything">word2vec4everything<a href="https://github.com/nchah/word2vec4everything" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
+#### <span id="word2vec4everything">word2vec4everything<a href="https://github.com/nchah/word2vec4everything" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a></span>
 
 Processing some interesting text documents through the word2vec machine learning model and visualizing the resulting vectors to discover the relationships and clusters that arise.
 
 #### <span id="Recommendation_Systems"><strong>Recommendation Systems</strong></span>
 
-#### <span id="movielens-recommender">movielens-recommender<a href="https://github.com/nchah/movielens-recommender" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></span>
+#### <span id="movielens-recommender">movielens-recommender<a href="https://github.com/nchah/movielens-recommender" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a></span>
 
 This implementation was part of a final project for a graduate course in Data Analytics at the University of Toronto (Winter term, 2016).
 
@@ -160,15 +160,15 @@ This implementation was part of a final project for a graduate course in Data An
 
 ### <span id="Semantic_Web"><strong>Semantic Web</strong></span>
 
-#### <span id="freebase-triples">freebase-triples<strong><a href="https://github.com/nchah/freebase-triples" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></strong></span>
+#### <span id="freebase-triples">freebase-triples<strong><a href="https://github.com/nchah/freebase-triples" target="_blank" rel="noopener noreferrer"><img class="alignright wp-image-540 size-full" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a></strong></span>
 
 A methodology to process triples data from the Freebase data dumps.
 
-#### <span id="knowledge-graph-api">knowledge-graph-api<strong><a href="https://github.com/nchah/knowledge-graph-api" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a></strong></span>
+#### <span id="knowledge-graph-api">knowledge-graph-api<strong><a href="https://github.com/nchah/knowledge-graph-api" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a></strong></span>
 
 Simple script to query Google's Knowledge Graph API.
 
-#### <span id="freebase-mql">freebase-mql<a href="https://github.com/nchah/freebase-mql" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="150" height="61" align="right" /></a><strong><br /> </strong></span>
+#### <span id="freebase-mql">freebase-mql<a href="https://github.com/nchah/freebase-mql" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-540 alignright" src="/assets/images/GitHub_Logo-small.png" alt="" width="100" height="40" align="right" /></a><strong><br /> </strong></span>
 
 A review of the deprecated Freebase knowledge base and Metaweb Query Language (MQL). A brief comparison of MQL and GraphQL.
 
