@@ -2,6 +2,7 @@
 title: Research
 date: 2016-09-02T13:19:44-04:00
 layout: page
+permalink: /research/
 ---
 <div id="toc_container" class="toc_white no_bullets">
   <p class="toc_title">
