@@ -129,14 +129,14 @@ permalink: /research/
 
 ### <span id="Invited_Talks">Invited Talks</span>
 
-**University of Toronto, RSM327: Business Information Systems.** Mar 7, 2018  
-&#8211; Presented on _Canada’s (& Big Data + Computing’s) Contributions to Deep Learning and Artificial Intelligence._
+**University of Toronto, RSM327: Business Information Systems.** Mar. 7, 2018; Mar. 5-6, 2019
+&#8211; _Canada’s (& Big Data + Computing’s) Contributions to Deep Learning and Artificial Intelligence_
 
-**University of Toronto, INF2186: Metadata Schemas and Applications.** Mar 6, 2018  
-&#8211; Presented on _Linked Data is Everywhere: A Case Study of Freebase and Google._
+**University of Toronto, INF2186: Metadata Schemas and Applications.** Mar. 6, Nov. 19-21, 2018
+&#8211; _Linked Data is Everywhere_
 
 **Visiting Delegation from KOFAC, South Korea.** Oct. 2017  
-&#8211; Presented on _Canada’s Contributions to Deep Learning and Artificial Intelligence_.
+&#8211; _Canada’s Contributions to Deep Learning and Artificial Intelligence_
 
 **Canada Now: 2017 iSchool Student Conference (University of Toronto).** March 2017
 
