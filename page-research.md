@@ -142,7 +142,7 @@ permalink: /research/
 &#8211; _Canada’s Contributions to Deep Learning and Artificial Intelligence_
 
 **Canada Now: 2017 iSchool Student Conference (University of Toronto).**
-9March 2017). 
+(March 2017). 
 
 <br>
 
