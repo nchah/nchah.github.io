@@ -50,7 +50,7 @@ function draw2() {
   });
 
   // Define graph parameters
-  var width = "95%";
+  var width = 900;
       height = 700;
   var force = d3.layout.force()
       .nodes(d3.values(nodes))
