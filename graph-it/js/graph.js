@@ -52,7 +52,7 @@ function draw2() {
   // Define graph parameters
   // var width = 900;
   // var height = 700;
-  var width = document.getElementById('visualization').offsetWidth * 0.95;
+  var width = document.body.offsetWidth * 0.95;  // from body size
   var height = 700;
   var force = d3.layout.force()
       .nodes(d3.values(nodes))
