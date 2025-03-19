@@ -10,13 +10,7 @@ permalink: /research/
   
   <ul class="toc_list">
     <li>
-      <a href="#Peer-Reviewed_Research">Peer-Reviewed Research</a>
-    </li>
-    <li>
-      <a href="#Conferences">Conferences</a>
-    </li>
-    <li>
-      <a href="#Open-source_Code">Open-source Code</a>
+      <a href="#Research">Peer-Reviewed Research and Conferences</a>
     </li>
     <li>
       <a href="#Invited_Talks">Invited Talks</a>
@@ -25,19 +19,35 @@ permalink: /research/
 </div>
 
 <br>
+
+<a style="vertical-align: top;" href="https://orcid.org/0000-0002-3377-7823" target="orcid.widget" rel="noopener noreferrer">
+    <img style="width: 1em; margin-right: .5em;" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon" /> orcid.org/0000-0002-3377-7823
+</a>
+<br>
+<a style="vertical-align: top;" href="https://scholar.google.ca/citations?hl=en&user=M-W7xXsAAAAJ">
+    <img style="width: 1em; margin-right: .5em;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/240px-Google_Scholar_logo.svg.png" alt="Google Scholar icon" />Google Scholar
+</a>
+
+<br>
+<br>
 <br>
 
-<a style="vertical-align: top;" href="https://orcid.org/0000-0002-3377-7823" target="orcid.widget" rel="noopener noreferrer"><img style="width: 1em; margin-right: .5em;" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon" />orcid.org/0000-0002-3377-7823</a>
-<br>
-<br>
 
-### <span id="Peer-Reviewed_Research">Peer-Reviewed Research</span>
+### <span id="Research">Peer-Reviewed Research and Conferences</span>
 
 <div class="page" title="Page 1">
   <div class="layoutArea">
     <div class="column">
       <p>
         Chah, N. (May 2019). "Towards A Graph of (American) Tech Companies: A Prototype Visualization Tool for Research on Technology and Users." Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. <a href="https://dl.acm.org/doi/abs/10.1145/3290607.3313058" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/abs/10.1145/3290607.3313058</a>
+      </p>
+
+      <p>
+        [Workshop] Chah, N. "i18n-CKG: Internationalization Contextualized Knowledge Graphs." presented at Noei, E., Lyons, K., Stroulia, E., and Andritsos, P. (Nov. 2019). "Fourth Annual Workshop on Data-Driven Knowledge Mobilization." IBM Centre for Advanced Studies Conference (CASCON) 2019.
+      </p>
+
+      <p>
+        [Paper] Chah, N. (Sep. 2019). "Discovering Traces of an Archived Component of Google's Knowledge Graph from the Freebase Data Dumps." Society for Social Studies of Science (4S) 2019.
       </p>
       
       <p>
@@ -46,24 +56,6 @@ permalink: /research/
       
       <p>
         Chah, N. (Feb. 2019). "Down the deep rabbit hole: Untangling deep learning from machine learning and artificial intelligence." <em>First Monday, 24(2).</em> <a href="https://doi.org/10.5210/fm.v24i2.8237" target="_blank" rel="noopener noreferrer">https://doi.org/10.5210/fm.v24i2.8237</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-<br>
-
-### <span id="Conferences">Conferences</span>
-
-<div class="page" title="Page 1">
-  <div class="layoutArea">
-    <div class="column">
-      <p>
-        [Workshop] Chah, N. "i18n-CKG: Internationalization Contextualized Knowledge Graphs." presented at Noei, E., Lyons, K., Stroulia, E., and Andritsos, P. (Nov. 2019). "Fourth Annual Workshop on Data-Driven Knowledge Mobilization." IBM Centre for Advanced Studies Conference (CASCON) 2019.
-      </p>
-
-      <p>
-        [Paper] Chah, N. (Sep. 2019). "Discovering Traces of an Archived Component of Google's Knowledge Graph from the Freebase Data Dumps." Society for Social Studies of Science (4S) 2019.
       </p>
       
       <p>
@@ -84,17 +76,10 @@ permalink: /research/
 
 <br>
 
-### <span id="Open-source_Code">Open-source Code</span>
-
-**[Code]** **Niel Chah** and Anthony Bloomer. 2018. github-traffic-stats. _Python Package Index (PyPI)._ <a href="https://pypi.org/project/github-traffic-stats/" target="_blank" rel="noopener noreferrer">pypi.org/project/github-traffic-stats/</a>.  
-&#8211; Released an open-source Python library to obtain GitHub traffic and download statistics. As of April 2018, the GitHub repository has 19 ★ stars and 10 ⑂ forks.
-
-<br>
-
 ### <span id="Invited_Talks">Invited Talks</span>
 
 **University of Toronto, RSM327: Business Information Systems.**
-(Mar. 7, 2018; Mar. 5-6, 2019). 
+(Mar. 7, 2018; Mar. 5-6, 2019; Mar. 11, 2025). 
 &#8211; _Canada’s (& Big Data + Computing’s) Contributions to Deep Learning and Artificial Intelligence_
 
 **University of Toronto, INF2186: Metadata Schemas and Applications.**
