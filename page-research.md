@@ -21,9 +21,6 @@ permalink: /research/
     <li>
       <a href="#Invited_Talks">Invited Talks</a>
     </li>
-    <li>
-      <a href="#Hackathons">Hackathons</a>
-    </li>
   </ul>
 </div>
 
@@ -31,6 +28,8 @@ permalink: /research/
 <br>
 
 <a style="vertical-align: top;" href="https://orcid.org/0000-0002-3377-7823" target="orcid.widget" rel="noopener noreferrer"><img style="width: 1em; margin-right: .5em;" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon" />orcid.org/0000-0002-3377-7823</a>
+<br>
+<br>
 
 ### <span id="Peer-Reviewed_Research">Peer-Reviewed Research</span>
 
@@ -43,14 +42,6 @@ permalink: /research/
       
       <p>
         Chah, N. (Mar. 2019). "i18n-CKG: Considerations in Building Internationalization Contextualized Knowledge Graphs." Proceedings of the Contextual Knowledge Graphs (CKG) Workshop 2018 co-located with International Semantic Web Conference (ISWC), October 2018. <a href="http://ceur-ws.org/Vol-2317/" target="_blank" rel="noopener noreferrer">http://ceur-ws.org/Vol-2317/</a>
-      </p>
-      
-      <p>
-        Kim, N., Caidi, N., and Chah, N. (Mar. 2019). "‘Our Korea’: Transcultural Affinities as Negotiated Through YouTube." <em>Information Research, 24(1).</em> <a href="http://www.informationr.net/ir/24-1/isic2018/isic1828.html" target="_blank" rel="noopener noreferrer">http://www.informationr.net/ir/24-1/isic2018/isic1828.html</a>
-      </p>
-      
-      <p>
-        Thomson, L., Caidi, N., Yoon, K., Forcier, E., Kim, A., and Chah, N. (Feb. 2019). "The YouTube Formula: Information Work and Community-Building in a Visual Era." Proceedings of the Association for Information Science and Technology 2018, 55(1). <a href="https://doi.org/10.1002/pra2.2018.14505501096" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/pra2.2018.14505501096</a>
       </p>
       
       <p>
@@ -74,33 +65,9 @@ permalink: /research/
       <p>
         [Paper] Chah, N. (Sep. 2019). "Discovering Traces of an Archived Component of Google's Knowledge Graph from the Freebase Data Dumps." Society for Social Studies of Science (4S) 2019.
       </p>
-
-      <p>
-        [Panel] Thomson, L., Caidi, N., Yoon, K., Forcier, E., Kim, A., and Chah, N. (Nov. 2018). "The YouTube Formula: Information Work and Community-Building in a Visual Era." Annual Meeting of The Association for Information Science & Technology (ASIS&T) 2018.
-      </p>
-
-      <p>
-        [Panel] Thomson, L., Caidi, N., Yoon, K., Forcier, E., Kim, A., and Chah, N. (Nov. 2018). "The YouTube Formula: Information Work and Community-Building in a Visual Era." Annual Meeting of The Association for Information Science & Technology (ASIS&T) 2018.
-      </p>
       
       <p>
         [Workshop] Chah, N. "i18n-CKG: Internationalization Contextualized Knowledge Graphs." presented at Lyons, K., Stroulia, E., and Mindel, M. (Oct. 2018). "Third Annual Workshop on Data-Driven Knowledge Mobilization." IBM Centre for Advanced Studies Conference (CASCON) 2018.
-      </p>
-
-      <p>
-        [Paper] Kim, N., Caidi, N., and Chah, N. (Oct. 2018). "Our Korea: Transcultural Affinities as Negotiated Through YouTube." Information Seeking in Context (ISIC) 2018.
-      </p>
-      
-      <p>
-        [Paper] Kim, N., Caidi, N., and Chah, N. (June 2018). "Whose Korea?: Intercultural Encounters Mediated Through YouTube Videos." Libraries in the Digital Age (LIDA) 2018.
-      </p>
-      
-      <p>
-        [Paper] Chah, N., and Kim, N. (June 2018). "Passion That Connects, But Is It For Sustainability?: How Social Media During the 2018 Winter Olympics Interfaces with Sustainability." International Association for Media and Communication Research (IAMCR) 2018.
-      </p>
-      
-      <p>
-        [Paper] Kim, N., and Chah, N. (June 2018). "Will They Survive?: The sustainability of Ethnic Media Industry in Canada." International Association for Media and Communication Research (IAMCR) 2018.
       </p>
       
       <p>
@@ -111,9 +78,6 @@ permalink: /research/
         [Poster] Chah, N., and Andritsos, P. (Nov. 2017). "Profiling Billions of Triples: The Case of Freebase Data Dumps." IBM Center for Advanced Studies Conference (CASCON) 2017.
       </p>
 
-      <p>
-        [Poster] Kim N., Caidi N. and Chah N. (July 2017). "Designing for Diversity: Intercultural Engagement Through YouTube." International Conference on Social Media & Society (SM&S) 2017.
-      </p>
     </div>
   </div>
 </div>
@@ -145,33 +109,3 @@ permalink: /research/
 (March 2017). 
 
 <br>
-
-### <span id="Hackathons">Hackathons</span>
-
-<div class="page" title="Page 2">
-  <div class="layoutArea">
-    <div class="column">
-      <p>
-        <a href="https://www.migrahackto.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>MigrahackTO</strong></span></a><br />
-        <em><strong>November 2017, Mozilla Toronto</strong></em><br />
-        &#8211; Mentored for a hackathon on immigration and migration data issues with representatives from government agencies, NGOs, and universities. Led a workshop on Mapping Data Boot Camp.
-      </p>
-
-      <p>
-        <a href="https://www.loc.gov/loc/kluge/news/save-web-2016.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Saving the Web Symposium</strong></span></a><br />
-        <em><strong>June 2016, Library of Congress, Washington, D.C.</strong></em><br />
-        &#8211; Presented my team&#8217;s work with web archives, named entity recognition, and visualization for the Archives Unleashed 2.0 Datathon.
-      </p>
-
-      <p>
-        <a href="http://archivesunleashed.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Archives Unleashed 2.0 Datathon</strong></span></a><br /> <em><strong> June 2016, Washington D.C.</strong></em><br />
-        &#8211; Applied Named Entity Recognition and text analysis at a hackathon organized by the University of Waterloo, the Internet Archive, and others.
-      </p>
-      
-      <p>
-        <a href="http://archivesunleashed.com/" target="_blank" rel="noopener noreferrer"><span style="text-decoration: underline;"><strong>Archives Unleashed Hackathon</strong></span></a><br /> <em><strong> March 2016, Toronto</strong></em><br />
-        &#8211; Applied computer vision and text analysis at a hackathon organized by the University of Waterloo, the Internet Archive, and the University of Toronto.
-      </p>
-    </div>
-  </div>
-</div>
