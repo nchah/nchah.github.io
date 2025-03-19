@@ -24,11 +24,6 @@ permalink: /technical-projects/
         <li>
           <a href="#NewTab_Memo">NewTab Memo</a>
         </li>
-      </ul>
-    </li>
-    
-    <li>
-      <a href="#Google_Chrome_Themes">Google Chrome Themes</a><ul>
         <li>
           <a href="#Dark_Theme_8211_Charcoal"> Dark Theme &#8211; Charcoal</a>
         </li>
@@ -76,8 +71,6 @@ Transforms web browser new tabs into memo pads. Type, edit, and save text.
 
 <br>
 
-### <span id="Google_Chrome_Themes"><strong>Google Chrome Themes</strong></span>
-
 #### <span id="Dark_Theme_8211_Charcoal"><img class="alignnone size-full wp-image-57" src="/assets/images/crx-images-logo.png" alt="crx-images-logo" width="48" height="48" /> Dark Theme &#8211; Charcoal<strong><a href="https://chrome.google.com/webstore/detail/dark-theme-charcoal/bookmfpildhgmigenbeeonhljjbgfple" target="_blank" rel="noopener noreferrer"><img class="size-full wp-image-52 alignright" src="/assets/images/ChromeWebStore_Badge_v2_206x58.png" alt="ChromeWebStore_Badge_v2_206x58" width="140" height="40" align="right" /></a></strong></span>
 
 A lightweight dark theme inspired by charcoal.
@@ -100,7 +93,4 @@ A methodology to process triples data from the Freebase data dumps.
 A review of the deprecated Freebase knowledge base and Metaweb Query Language (MQL). A brief comparison of MQL and GraphQL.
 
 <br>
-
-Related blog post: [Archives Unleashed 2.0 Datathon  
-](https://nielchah.com/blog/archives-unleashed-2-0-datathon/) Event page: <a href="http://archivesunleashed.com/" target="_blank" rel="noopener noreferrer">Archives Unleashed 2.0: Web Archive Datathon, June 14 – 15, 2016</a>
 
