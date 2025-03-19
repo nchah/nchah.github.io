@@ -39,6 +39,14 @@ permalink: /research/
   <div class="layoutArea">
     <div class="column">
       <p>
+        Chah, N., Andritsos, P. (2021). "The Lay of the Land: Data Visualizations of the Language Data and Domains of Wikidata." Proceedings of the ISWC 2021 Posters, Demos and Industry Tracks: From Novel Ideas to Industrial Practice co-located with 20th International Semantic Web Conference (ISWC 2021). <a href="https://ceur-ws.org/Vol-2980/paper365.pdf" target="_blank" rel="noopener noreferrer">https://ceur-ws.org/Vol-2980/paper365.pdf</a>
+      </p>
+
+      <p>
+        Chah, N., Andritsos, P. (2021). "WikiMetaData Studio: Dashboards From Data Profiling the Languages, Properties, and Items of Wikidata". Proceedings of the 2nd Wikidata Workshop (Wikidata 2021) co-located with the 20th International Semantic Web Conference (ISWC 2021). <a href="https://ceur-ws.org/Vol-2982/paper-13.pdf" target="_blank" rel="noopener noreferrer">https://ceur-ws.org/Vol-2982/paper-13.pdf</a>
+      </p>
+      
+      <p>
         Chah, N. (May 2019). "Towards A Graph of (American) Tech Companies: A Prototype Visualization Tool for Research on Technology and Users." Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. <a href="https://dl.acm.org/doi/abs/10.1145/3290607.3313058" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/abs/10.1145/3290607.3313058</a>
       </p>
 
