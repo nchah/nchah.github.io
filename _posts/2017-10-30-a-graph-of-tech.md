@@ -13,9 +13,9 @@ A force-directed graph of notable tech companies, their products, and services. 
 
 _Disclaimer: All information on this page is presented for informational purposes only. There is no affiliation with any of the companies shown here._
 
-<img class="aligncenter wp-image-637 size-full" src="https://nielchah.com/wp-content/uploads/2017/10/tech-graph.png" alt="" width="2008" height="1207" srcset="https://nielchah.com/wp-content/uploads/2017/10/tech-graph.png 2008w, https://nielchah.com/wp-content/uploads/2017/10/tech-graph-300x180.png 300w, https://nielchah.com/wp-content/uploads/2017/10/tech-graph-768x462.png 768w, https://nielchah.com/wp-content/uploads/2017/10/tech-graph-1024x616.png 1024w" sizes="(max-width: 2008px) 100vw, 2008px" /> 
+![](/assets/images/tech-graph.png)
 
-## Introduction
+## Background
 
 This graph started as a side project one weekend in response to some recurring trends I saw with regards to acquisitions of tech companies and products. Upon hearing that a company was acquired by [TECH GIANT], this would often elicit a common set of questions. Why did they acquire them? What&#8217;s the impact for that company and other competitors? What else do they own? With the a great deal of attention given to tech companies and startups with the recent advances in machine learning and artificial intelligence, it seemed worthwhile to map out the various entities that fall under each major tech company.
 
