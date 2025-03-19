@@ -45,21 +45,19 @@ These are a selection of the most interesting visualizations that have been prod
   * Data: ~10 MB &#8211; A plaintext file of all 7 Harry Potter books. Found with the help of some Google-fu.
   * Comment: word2vec clusters the 4 houses of Hogwarts (Gryffindor, Hufflepuff, Ravenclaw, and Slytherin) together.
 
-<img class="alignnone wp-image-470 size-full" src="https://nielchah.com/wp-content/uploads/2017/01/tsne-hp-names-200k-steps-1500-plot-v2-houses-cluster.png" width="3500" height="3500" srcset="https://nielchah.com/wp-content/uploads/2017/01/tsne-hp-names-200k-steps-1500-plot-v2-houses-cluster.png 3500w, https://nielchah.com/wp-content/uploads/2017/01/tsne-hp-names-200k-steps-1500-plot-v2-houses-cluster-150x150.png 150w, https://nielchah.com/wp-content/uploads/2017/01/tsne-hp-names-200k-steps-1500-plot-v2-houses-cluster-300x300.png 300w, https://nielchah.com/wp-content/uploads/2017/01/tsne-hp-names-200k-steps-1500-plot-v2-houses-cluster-768x768.png 768w, https://nielchah.com/wp-content/uploads/2017/01/tsne-hp-names-200k-steps-1500-plot-v2-houses-cluster-1024x1024.png 1024w" sizes="(max-width: 3500px) 100vw, 3500px" /> 
+![](/assets/images/tsne-hp-names-200k-steps-1500-plot-v2-houses-cluster.png)
 
 **The Fellowship of the Ring**
 
   * Data: ~1 MB &#8211; A plaintext file of the first book in The Lord of the Rings book series.
   * Comment: word2vec clusters the members of the Fellowship of the Ring: Frodo, Sam, Gandalf, Legolas, Gimli, Aragorn, Boromir, Merry, and Pippin. It&#8217;s also neat that &#8216;Strider&#8217; is quite close to Aragorn. Sauron, Saruman, and Gollum are also relatively distant from the Fellowship.
-
-&nbsp;
+  * 
 
 **The Bible, King James version**
 
   * Data: ~4.4 MB &#8211; A plaintext file of the Bible, King James version.
-  * Comment: There seems to be a distinct cluster for the &#8220;God&#8221; related words and a separate cluster for the prominent people in the source text. Running the script again seems to replicate this interesting finding.
+  * Comment: There seems to be a distinct cluster for the 'God' related words and a separate cluster for the prominent people in the source text. Running the script again seems to replicate this interesting finding.
 
-&nbsp;
 
 **The Chronicles of Narnia**
 
